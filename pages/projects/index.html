@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Projects | C2P Tech Hub</title>
+    <meta
+      name="description"
+      content="Browse student-built engineering projects from C2P Tech Hub — embedded systems, data science, mobile, and web builds."
+    />
+    <link rel="icon" type="image/png" href="../../images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/tokens.css" />
+    <link rel="stylesheet" href="../../css/base.css" />
+    <link rel="stylesheet" href="../../css/layout.css" />
+    <link rel="stylesheet" href="../../css/components.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="../../index.html" class="nav-brand">
+          <img src="../../images/logo-icon.png" alt="C2P Tech Hub logo" />
+          C2P Tech Hub
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input" />
+        <label
+          for="nav-toggle"
+          class="nav-toggle-label"
+          aria-label="Toggle navigation menu"
+        >
+          <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+        </label>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="../../index.html">Home</a></li>
+          <li><a class="nav-link" href="../about/">About</a></li>
+          <li><a class="nav-link" href="../programs/">Programs</a></li>
+          <li>
+            <a class="nav-link" href="../projects/" aria-current="page"
+              >Projects</a
+            >
+          </li>
+          <li><a class="nav-link" href="../directory/">Directory</a></li>
+          <li><a class="nav-link" href="../gallery/">Gallery</a></li>
+          <li><a class="nav-link" href="../events/">Events</a></li>
+          <li><a class="nav-link" href="../join/">Join</a></li>
+          <li><a class="nav-link" href="../contact/">Contact</a></li>
+        </ul>
+        <a href="../join/" class="btn btn-primary nav-cta">Get Started</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="container section-tight">
+        <h1 style="margin-top: 16px">Student Projects.</h1>
+        <p style="max-width: 640px; margin-top: 16px">
+          A running record of what hub members have shipped — from IoT sensor
+          networks to offline-first mobile apps. Each card expands into the full
+          technical write-up without a single line
+        </p>
+      </section>
+
+      <section class="container section">
+        <div class="grid grid-3">
+          <article class="card" id="proj-007">
+            <div class="card-media">
+              <img
+                src="../../images/projects/project1.jpeg"
+                alt="The ParaVision diagnostic device prototype, showing its sample-input ports and touchscreen display"
+              />
+            </div>
+            <span class="card-tag">AI &amp; Health Tech</span>
+            <h3 style="margin-top: 10px">
+              ParaVision — AI Diagnostic Support System
+            </h3>
+            <p>
+              ParaVision is an AI-powered diagnostic support system that helps
+              healthcare professionals detect malaria and intestinal parasites
+              faster and more consistently through intelligent image analysis —
+              reducing laboratory workload and improving access to timely
+              diagnostic support, with potential for deployment across Nigeria
+              and other African markets.
+            </p>
+            <details class="disclosure">
+              <summary>Tech stack &amp; repo</summary>
+              <div class="disclosure-body">
+                <div class="card-tags">
+                  <span class="card-tag">Computer Vision</span
+                  ><span class="card-tag">Python</span
+                  ><span class="card-tag">Affordable Hardware</span>
+                </div>
+                <p><strong>Team:</strong> C2P Tech Hub student-led team</p>
+                <p>
+                  <a
+                    href="https://github.com/example/paravision"
+                    style="color: var(--color-secondary); font-weight: 600"
+                    >View repository →</a
+                  >
+                </p>
+              </div>
+            </details>
+          </article>
+
+          <!-- <article class="card" id="proj-001">
+        <div class="card-media"><div class="card-media-icon"><span class="material-symbols-outlined" aria-hidden="true">sensors</span></div></div>
+        <span class="card-tag">Embedded Systems</span>
+        <h3 style="margin-top:10px;">SmartIrrigate — IoT Soil Sensor Network</h3>
+        <p>A LoRaWAN-based soil moisture and micro-climate sensor network built to help smallholder farms schedule irrigation with far less guesswork and water waste.</p>
+        <details class="disclosure">
+          <summary>Tech stack &amp; repo</summary>
+          <div class="disclosure-body">
+            <div class="card-tags">
+              <span class="card-tag">Arduino</span><span class="card-tag">LoRaWAN</span><span class="card-tag">React</span>
+            </div>
+            <p><strong>Team:</strong> Chiamaka Nwosu, Hauwa Abdullahi</p>
+            <p><a href="https://github.com/example/smart-irrigate" style="color:var(--color-secondary); font-weight:600;">View repository →</a></p>
+          </div>
+        </details>
+      </article>
+
+      <article class="card" id="proj-002">
+        <div class="card-media"><div class="card-media-icon"><span class="material-symbols-outlined" aria-hidden="true">monitoring</span></div></div>
+        <span class="card-tag">Data Science</span>
+        <h3 style="margin-top:10px;">CampusEats — Cafeteria Queue Predictor</h3>
+        <p>A statistical model that forecasts cafeteria queue length by time of day using two semesters of historical foot-traffic data collected by student volunteers.</p>
+        <details class="disclosure">
+          <summary>Tech stack &amp; repo</summary>
+          <div class="disclosure-body">
+            <div class="card-tags">
+              <span class="card-tag">Python</span><span class="card-tag">Pandas</span><span class="card-tag">Flask</span>
+            </div>
+            <p><strong>Team:</strong> Amaka Okoro</p>
+            <p><a href="https://github.com/example/campus-eats" style="color:var(--color-secondary); font-weight:600;">View repository →</a></p>
+          </div>
+        </details>
+      </article>
+
+      <article class="card" id="proj-003">
+        <div class="card-media"><div class="card-media-icon"><span class="material-symbols-outlined" aria-hidden="true">smartphone</span></div></div>
+        <span class="card-tag">Mobile</span>
+        <h3 style="margin-top:10px;">LectureLink — Offline-First Notes Sync</h3>
+        <p>A lecture-notes app built for low-connectivity campuses: it works fully offline and reconciles changes once a network connection briefly reappears.</p>
+        <details class="disclosure">
+          <summary>Tech stack &amp; repo</summary>
+          <div class="disclosure-body">
+            <div class="card-tags">
+              <span class="card-tag">Kotlin</span><span class="card-tag">SQLite</span><span class="card-tag">WorkManager</span>
+            </div>
+            <p><strong>Team:</strong> Fatima Sani</p>
+            <p><a href="https://github.com/example/lecturelink" style="color:var(--color-secondary); font-weight:600;">View repository →</a></p>
+          </div>
+        </details>
+      </article>
+
+      <article class="card" id="proj-004">
+        <div class="card-media"><div class="card-media-icon"><span class="material-symbols-outlined" aria-hidden="true">sensors</span></div></div>
+        <span class="card-tag">Embedded Systems</span>
+        <h3 style="margin-top:10px;">GridWatch — Power Outage Logger</h3>
+        <p>A low-cost ESP32 logger that timestamps grid power outages across hostel blocks, producing reliability reports the estate office actually uses.</p>
+        <details class="disclosure">
+          <summary>Tech stack &amp; repo</summary>
+          <div class="disclosure-body">
+            <div class="card-tags">
+              <span class="card-tag">ESP32</span><span class="card-tag">MQTT</span><span class="card-tag">Grafana</span>
+            </div>
+            <p><strong>Team:</strong> Bello Yusuf, Gideon Okafor</p>
+            <p><a href="https://github.com/example/gridwatch" style="color:var(--color-secondary); font-weight:600;">View repository →</a></p>
+          </div>
+        </details>
+      </article>
+
+      <article class="card" id="proj-005">
+        <div class="card-media"><div class="card-media-icon"><span class="material-symbols-outlined" aria-hidden="true">language</span></div></div>
+        <span class="card-tag">Web</span>
+        <h3 style="margin-top:10px;">ArtisanChain — Local Craft Marketplace</h3>
+        <p>A directory site connecting student and local artisans with buyers, built as a static-first storefront with a simple order-by-WhatsApp flow.</p>
+        <details class="disclosure">
+          <summary>Tech stack &amp; repo</summary>
+          <div class="disclosure-body">
+            <div class="card-tags">
+              <span class="card-tag">HTML5</span><span class="card-tag">CSS Grid</span><span class="card-tag">Netlify</span>
+            </div>
+            <p><strong>Team:</strong> Daniel Eze</p>
+            <p><a href="https://github.com/example/artisanchain" style="color:var(--color-secondary); font-weight:600;">View repository →</a></p>
+          </div>
+        </details>
+      </article>
+
+      <article class="card" id="proj-006">
+        <div class="card-media"><div class="card-media-icon"><span class="material-symbols-outlined" aria-hidden="true">bolt</span></div></div>
+        <span class="card-tag">Hardware</span>
+        <h3 style="margin-top:10px;">VoltGuard — Surge Protection Trainer Kit</h3>
+        <p>A benchtop teaching kit that lets first-year students safely observe and measure voltage surge behaviour before working with live lab equipment.</p>
+        <details class="disclosure">
+          <summary>Tech stack &amp; repo</summary>
+          <div class="disclosure-body">
+            <div class="card-tags">
+              <span class="card-tag">KiCad</span><span class="card-tag">STM32</span><span class="card-tag">C</span>
+            </div>
+            <p><strong>Team:</strong> Hauwa Abdullahi</p>
+            <p><a href="https://github.com/example/voltguard" style="color:var(--color-secondary); font-weight:600;">View repository →</a></p>
+          </div>
+        </details>
+      </article> -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-name">C2P Tech Hub</div>
+          <p style="font-style: italic; color: var(--color-secondary-fixed)">
+            Rooted in knowledge, Branching into Innovation.
+          </p>
+          <p>Dept. of Computer Engineering, Ahmadu Bello University, Zaria.</p>
+          <p>
+            &copy; 2026 C2P Tech Hub. CAC Reg: 8121336. All Rights Reserved.
+          </p>
+        </div>
+        <nav class="footer-links" aria-label="Footer">
+          <a href="../about/">About the Hub</a>
+          <a href="../directory/">Student Directory</a>
+          <a href="../events/">Events</a>
+          <a href="../contact/">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

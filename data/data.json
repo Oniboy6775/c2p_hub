@@ -1,0 +1,336 @@
+{
+  "programs": [
+    {
+      "id": "prog-001",
+      "title": "Tech Skills Training",
+      "date": "2026-01-12",
+      "category": "Program",
+      "description": "Industry-aligned curricula in modern web development, machine learning, and data science, built to turn theoretical knowledge into practical capability.",
+      "image_url": "https://picsum.photos/seed/prog-001/800/600",
+      "duration_weeks": 10,
+      "level": "Beginner to Intermediate"
+    },
+    {
+      "id": "prog-002",
+      "title": "Startup Incubation",
+      "date": "2026-02-03",
+      "category": "Program",
+      "description": "A rigorous 3-6 month program designed to transform minimum viable products into scalable tech enterprises, including mentorship, legal structuring, and seed funding access.",
+      "image_url": "https://picsum.photos/seed/prog-002/800/600",
+      "duration_weeks": 24,
+      "level": "Advanced"
+    },
+    {
+      "id": "prog-003",
+      "title": "Internships & SIWES",
+      "date": "2026-03-01",
+      "category": "Program",
+      "description": "Structured industrial attachment placements for engineering students, providing hands-on experience in active tech projects and corporate workflows.",
+      "image_url": "https://picsum.photos/seed/prog-003/800/600",
+      "duration_weeks": 26,
+      "level": "All Levels"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-007",
+      "title": "ParaVision — AI Diagnostic Support System",
+      "date": "2026-06-10",
+      "category": "AI & Health Tech",
+      "description": "An AI-powered diagnostic support system that helps healthcare professionals detect malaria and intestinal parasites faster and more consistently through intelligent image analysis, reducing laboratory workload and improving access to timely diagnostic support.",
+      "image_url": "https://c2phub.example.edu/images/projects/project1.jpeg",
+      "authors": [],
+      "tech_stack": [
+        "Computer Vision",
+        "Python",
+        "Affordable Hardware"
+      ],
+      "repo_url": "https://github.com/example/paravision"
+    },
+    {
+      "id": "proj-001",
+      "title": "SmartIrrigate — IoT Soil Sensor Network",
+      "date": "2026-03-14",
+      "category": "Embedded Systems",
+      "description": "A LoRaWAN-based soil moisture and micro-climate sensor network built to help smallholder farms schedule irrigation with far less guesswork and water waste.",
+      "image_url": "https://picsum.photos/seed/proj-001/800/600",
+      "authors": [],
+      "tech_stack": [
+        "Arduino",
+        "LoRaWAN",
+        "React"
+      ],
+      "repo_url": "https://github.com/example/smart-irrigate"
+    },
+    {
+      "id": "proj-002",
+      "title": "CampusEats — Cafeteria Queue Predictor",
+      "date": "2026-02-02",
+      "category": "Data Science",
+      "description": "A statistical model that forecasts cafeteria queue length by time of day using two semesters of historical foot-traffic data collected by student volunteers.",
+      "image_url": "https://picsum.photos/seed/proj-002/800/600",
+      "authors": [
+        "student-001"
+      ],
+      "tech_stack": [
+        "Python",
+        "Pandas",
+        "Flask"
+      ],
+      "repo_url": "https://github.com/example/campus-eats"
+    },
+    {
+      "id": "proj-003",
+      "title": "LectureLink — Offline-First Notes Sync",
+      "date": "2025-11-18",
+      "category": "Mobile",
+      "description": "A lecture-notes app built for low-connectivity campuses: it works fully offline and reconciles changes once a network connection briefly reappears.",
+      "image_url": "https://picsum.photos/seed/proj-003/800/600",
+      "authors": [],
+      "tech_stack": [
+        "Kotlin",
+        "SQLite",
+        "WorkManager"
+      ],
+      "repo_url": "https://github.com/example/lecturelink"
+    },
+    {
+      "id": "proj-004",
+      "title": "GridWatch — Power Outage Logger",
+      "date": "2025-10-05",
+      "category": "Embedded Systems",
+      "description": "A low-cost ESP32 logger that timestamps grid power outages across hostel blocks, producing reliability reports the estate office actually uses.",
+      "image_url": "https://picsum.photos/seed/proj-004/800/600",
+      "authors": [],
+      "tech_stack": [
+        "ESP32",
+        "MQTT",
+        "Grafana"
+      ],
+      "repo_url": "https://github.com/example/gridwatch"
+    },
+    {
+      "id": "proj-005",
+      "title": "ArtisanChain — Local Craft Marketplace",
+      "date": "2025-09-22",
+      "category": "Web",
+      "description": "A directory site connecting student and local artisans with buyers, built as a static-first storefront with a simple order-by-WhatsApp flow.",
+      "image_url": "https://picsum.photos/seed/proj-005/800/600",
+      "authors": [],
+      "tech_stack": [
+        "HTML5",
+        "CSS Grid",
+        "Netlify"
+      ],
+      "repo_url": "https://github.com/example/artisanchain"
+    },
+    {
+      "id": "proj-006",
+      "title": "VoltGuard — Surge Protection Trainer Kit",
+      "date": "2025-08-30",
+      "category": "Hardware",
+      "description": "A benchtop teaching kit that lets first-year students safely observe and measure voltage surge behaviour before working with live lab equipment.",
+      "image_url": "https://picsum.photos/seed/proj-006/800/600",
+      "authors": [],
+      "tech_stack": [
+        "KiCad",
+        "STM32",
+        "C"
+      ],
+      "repo_url": "https://github.com/example/voltguard"
+    }
+  ],
+  "students": [
+    {
+      "id": "student-001",
+      "title": "Olorundare Olorunfemi Emmanuel",
+      "date": "2021-09-01",
+      "category": "Student",
+      "description": "500-level Computer Engineering student focused on networking.",
+      "image_url": "https://c2phub.example.edu/images/profile/femi.jpg",
+      "role": "Student",
+      "level": "500 Level",
+      "email": "femidare052@gmail.com",
+      "portfolio_url": "https://c2phub.example.edu/portfolio/olorundare-olorunfemi-emmanuel"
+    },
+    {
+      "id": "student-008",
+      "title": "Yusuf Zainab Ajoge",
+      "date": "2021-09-01",
+      "category": "Student",
+      "description": "Student focused on networking.",
+      "image_url": "https://c2phub.example.edu/images/profile/zainab.jpg",
+      "role": "Student",
+      "level": "",
+      "email": "zayneeyusuf16@gmail.com",
+      "portfolio_url": "https://c2phub.example.edu/portfolio/yusuf-zainab-ajoge"
+    },
+    {
+      "id": "student-009",
+      "title": "Grace Temitayo Olorunfemi",
+      "date": "2021-09-01",
+      "category": "Student",
+      "description": "Student focused on control engineering.",
+      "image_url": "https://c2phub.example.edu/images/profile/grace.jpg",
+      "role": "Student",
+      "level": "",
+      "email": "graceolorunfemi96@gmail.com",
+      "portfolio_url": "https://c2phub.example.edu/portfolio/grace-temitayo-olorunfemi"
+    },
+    {
+      "id": "student-010",
+      "title": "Joshua Oluwagbotemi Oyeyemi",
+      "date": "2021-09-01",
+      "category": "Student",
+      "description": "Student focused on control engineering.",
+      "image_url": "https://c2phub.example.edu/images/profile/joshua.jpg",
+      "role": "Student",
+      "level": "",
+      "email": "Oyeyemijoshua997@gmail.com",
+      "portfolio_url": "https://c2phub.example.edu/portfolio/joshua-oluwagbotemi-oyeyemi"
+    },
+    {
+      "id": "student-011",
+      "title": "Magaji Daniel Ozavogu",
+      "date": "2021-09-01",
+      "category": "Student",
+      "description": "Student focused on control engineering.",
+      "image_url": "https://c2phub.example.edu/images/profile/daniel.jpg",
+      "role": "Student",
+      "level": "",
+      "email": "ozavogudaniel@gmail.com",
+      "portfolio_url": "https://c2phub.example.edu/portfolio/magaji-daniel-ozavogu"
+    },
+    {
+      "id": "student-012",
+      "title": "Onisabi Abdullahi Kolawole",
+      "date": "2021-09-01",
+      "category": "Student",
+      "description": "Student focused on software development.",
+      "image_url": "https://c2phub.example.edu/images/profile/abdullahi.jpg",
+      "role": "Student",
+      "level": "",
+      "email": "onisabiabdullahi@gmail.com",
+      "portfolio_url": "https://onisabi-portfolio.netlify.app"
+    },
+    {
+      "id": "student-013",
+      "title": "Abraham Enoch",
+      "date": "2021-09-01",
+      "category": "Student",
+      "description": "Student focused on embedded systems.",
+      "image_url": "https://c2phub.example.edu/images/profile/enoch.jpg",
+      "role": "Student",
+      "level": "",
+      "email": "enochabraham2002@gmail.com",
+      "portfolio_url": "https://c2phub.example.edu/portfolio/abraham-enoch"
+    },
+    {
+      "id": "student-014",
+      "title": "Mukaila Taiye Balikis",
+      "date": "2021-09-01",
+      "category": "Student",
+      "description": "Student focused on networking.",
+      "image_url": "https://c2phub.example.edu/images/profile/taiye.jpg",
+      "role": "Student",
+      "level": "",
+      "email": "mukailataiye@gmail.com",
+      "portfolio_url": "https://c2phub.example.edu/portfolio/mukaila-taiye-balikis"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gallery-001",
+      "title": "Hackathon Finals Night",
+      "date": "2025-11-20",
+      "category": "Event",
+      "description": "Teams presenting final builds to the judging panel during the 48-hour hackathon closing ceremony.",
+      "image_url": "https://c2phub.example.edu/images/events/event1.jpg"
+    },
+    {
+      "id": "gallery-002",
+      "title": "C2P Lab Soldering Section",
+      "date": "2025-10-11",
+      "category": "Workshop",
+      "description": "First-year students learning through-hole soldering fundamentals ahead of the VoltGuard trainer kit rollout.",
+      "image_url": "https://c2phub.example.edu/images/c2p_lab/lab2.jpg"
+    },
+    {
+      "id": "gallery-003",
+      "title": "Demo Day Crowd",
+      "date": "2025-05-14",
+      "category": "Event",
+      "description": "Attendees exploring student project booths at the annual C2P Hub Demo Day showcase.",
+      "image_url": "https://c2phub.example.edu/images/events/event3.jpg"
+    },
+    {
+      "id": "gallery-004",
+      "title": "Training Hall, Morning Session",
+      "date": "2025-04-02",
+      "category": "Facility",
+      "description": "The main training hall mid-session during a Tech Skills Training cohort's web development module.",
+      "image_url": "https://c2phub.example.edu/images/c2p_lab/lab6.jpg"
+    },
+    {
+      "id": "gallery-005",
+      "title": "Mentorship Circle",
+      "date": "2025-03-19",
+      "category": "Community",
+      "description": "A weekly mentorship circle pairing 500-level students with new hub members.",
+      "image_url": "https://c2phub.example.edu/images/events/event4.jpg"
+    },
+    {
+      "id": "gallery-006",
+      "title": "Startup Incubation Pitch Rehearsal",
+      "date": "2025-02-27",
+      "category": "Program",
+      "description": "An incubation cohort rehearsing investor pitches ahead of the seed-funding review panel.",
+      "image_url": "https://c2phub.example.edu/images/c2p/c2p8.jpg"
+    },
+    {
+      "id": "gallery-007",
+      "title": "Community Tech Meetup",
+      "date": "2025-01-16",
+      "category": "Community",
+      "description": "A monthly community meetup with a guest talk from a visiting industry engineer.",
+      "image_url": "https://c2phub.example.edu/images/c2p/c2p6.jpg"
+    },
+    {
+      "id": "gallery-008",
+      "title": "Digital Inclusion Outreach Day",
+      "date": "2024-11-23",
+      "category": "Outreach",
+      "description": "Hub volunteers running an introductory coding workshop for local secondary school students.",
+      "image_url": "https://c2phub.example.edu/images/events/event2.jpg"
+    },
+    {
+      "id": "gallery-009",
+      "title": "Hands-On Training Session",
+      "date": "2026-08-27",
+      "category": "Program",
+      "description": "Members working together around the training table on a coding session.",
+      "image_url": "https://c2phub.example.edu/images/c2p/c2p11.jpg"
+    },
+    {
+      "id": "gallery-010",
+      "title": "Our Core Values Wall",
+      "date": "2026-08-27",
+      "category": "Facility",
+      "description": "The C2P Tech Hub values wall — Vision, Goals, Growth, Innovation, Research, Teamwork, Strategy.",
+      "image_url": "https://c2phub.example.edu/images/c2p/c2p19.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": "event-007",
+      "title": "ABU ICT Champions & Innovation Summit",
+      "date": "2026-07-25",
+      "category": "Summit",
+      "description": "The official launch of C2P Tech Hub, celebrating the hub's Grand Prize win at the Huawei ICT Competition. Features the C2P Ideas Challenge, the unveiling of the Crownbird Fellowship, the roadmap to the Huawei Competition 2027, and networking with industry experts and alumni.",
+      "image_url": "https://c2phub.example.edu/images/events/upcoming.png",
+      "location": "Yusuf Bala Hall (Former Assembly Hall), ABU Zaria",
+      "start_time": "10:00",
+      "registration_url": "https://bit.ly/4gtQrr4"
+    }
+  ]
+}
