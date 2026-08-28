@@ -1,8 +1,5 @@
-/* Design tokens — C2P Hub. Ported from the original Material-style palette; no framework. */
-
 :root {
-  /* color */
-  --color-primary: #3d27ca;
+    --color-primary: #3d27ca;
   --color-on-primary: #ffffff;
   --color-primary-container: #1c1066;
   --color-on-primary-container: #aaa3dc;
@@ -51,8 +48,7 @@
   --color-inverse-on-surface: #eaf1ff;
   --color-inverse-primary: #bec6e0;
 
-  /* typography */
-  --font-display: "Hanken Grotesk", "Segoe UI", sans-serif;
+    --font-display: "Hanken Grotesk", "Segoe UI", sans-serif;
   --font-body: "Inter", "Segoe UI", sans-serif;
   --font-label: "JetBrains Mono", "Courier New", monospace;
 
@@ -67,8 +63,7 @@
   --text-label-caps: 12px;
   --text-label-caps-lh: 16px;
 
-  /* spacing */
-  --space-base: 8px;
+    --space-base: 8px;
   --space-stack-sm: 4px;
   --space-stack-md: 12px;
   --space-stack-lg: 24px;
@@ -76,14 +71,12 @@
   --space-margin-mobile: 16px;
   --container-max: 1280px;
 
-  /* radius */
-  --radius-default: 0.125rem;
+    --radius-default: 0.125rem;
   --radius-lg: 0.25rem;
   --radius-xl: 0.5rem;
   --radius-full: 0.75rem;
 
-  /* shadow */
-  --shadow-card: 0px 10px 15px -3px rgba(15, 23, 42, 0.08);
+    --shadow-card: 0px 10px 15px -3px rgba(15, 23, 42, 0.08);
   --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
 }
 
