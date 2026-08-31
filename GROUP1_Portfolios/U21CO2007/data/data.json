@@ -1,0 +1,54 @@
+{
+  "person": {
+    "id": "person-1",
+    "name": "Abdullahi Onisabi",
+    "title": "Computer Engineering Student & Full-Stack Developer",
+    "location": "Zaria, Kaduna State, Nigeria",
+    "email": "onisabiabdullahi@gmail.com",
+    "github": "https://github.com/Oniboy6775",
+    "linkedin": "https://www.linkedin.com/in/onisabi-abdullahi-577313184",
+    "summary": "Aspiring Computer Engineer at Ahmadu Bello University, Zaria, with hands-on experience building full-stack web and mobile applications using the MERN stack and React Native."
+  },
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Ahmadu Bello University, Zaria",
+      "program": "B.Eng. Computer Engineering",
+      "category": "University",
+      "start_date": "2021",
+      "end_date": "2026",
+      "status": "Expected Graduation",
+      "description": "Undergraduate studies in Computer Engineering, covering software engineering, computer architecture, embedded systems, and web/mobile application development."
+    }
+  ],
+  "skills": [
+    { "id": "skill-1", "name": "HTML5", "category": "Frontend" },
+    { "id": "skill-2", "name": "CSS3 (Flexbox & Grid)", "category": "Frontend" },
+    { "id": "skill-3", "name": "JavaScript (ES6+)", "category": "Frontend" },
+    { "id": "skill-4", "name": "React.js", "category": "Frontend" },
+    { "id": "skill-5", "name": "React Native", "category": "Mobile" },
+    { "id": "skill-6", "name": "Node.js", "category": "Backend" },
+    { "id": "skill-7", "name": "Express.js", "category": "Backend" },
+    { "id": "skill-8", "name": "MongoDB", "category": "Database" },
+    { "id": "skill-9", "name": "REST APIs", "category": "Backend" },
+    { "id": "skill-10", "name": "Git & GitHub", "category": "Tools" },
+    { "id": "skill-11", "name": "Responsive / Mobile-First Design", "category": "Frontend" }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "DataReloaded",
+      "date": "2025",
+      "category": "Full-Stack Web Application",
+      "description": "A VTU (Virtual Top-Up) services platform that lets users purchase mobile data, airtime, cable TV subscriptions, and pay electricity bills online.",
+      "tech": ["MongoDB", "Express.js", "React", "Node.js"],
+      "image_url": "assets/images/projects/datareloaded.png",
+      "url": "https://datareloaded.com"
+    }
+  ],
+  "hobbies": [
+    { "id": "hobby-1", "name": "Coding", "description": "Building side projects and exploring new frameworks in spare time." },
+    { "id": "hobby-2", "name": "Innovation", "description": "Sketching ideas for products that solve everyday problems." },
+    { "id": "hobby-3", "name": "Technology", "description": "Following emerging tech trends, gadgets, and developer tools." }
+  ]
+}

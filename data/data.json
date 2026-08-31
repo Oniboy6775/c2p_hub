@@ -163,7 +163,7 @@
       "role": "Student",
       "level": "",
       "email": "zayneeyusuf16@gmail.com",
-      "portfolio_url": "https://c2phub.example.edu/portfolio/yusuf-zainab-ajoge"
+      "portfolio_url": "https://myportfolio-yza.netlify.app"
     },
     {
       "id": "student-009",
@@ -187,7 +187,7 @@
       "role": "Student",
       "level": "",
       "email": "Oyeyemijoshua997@gmail.com",
-      "portfolio_url": "https://c2phub.example.edu/portfolio/joshua-oluwagbotemi-oyeyemi"
+      "portfolio_url": "https://joshuaoluwagbotemiportfolio.netlify.app/"
     },
     {
       "id": "student-011",
@@ -199,7 +199,7 @@
       "role": "Student",
       "level": "",
       "email": "ozavogudaniel@gmail.com",
-      "portfolio_url": "https://c2phub.example.edu/portfolio/magaji-daniel-ozavogu"
+      "portfolio_url": "https://sage-sunflower-5b4e4e.netlify.app"
     },
     {
       "id": "student-012",
@@ -211,7 +211,7 @@
       "role": "Student",
       "level": "",
       "email": "onisabiabdullahi@gmail.com",
-      "portfolio_url": "https://onisabi-portfolio.netlify.app"
+      "portfolio_url": "https://effervescent-khapse-083c5f.netlify.app/"
     },
     {
       "id": "student-013",
@@ -223,7 +223,7 @@
       "role": "Student",
       "level": "",
       "email": "enochabraham2002@gmail.com",
-      "portfolio_url": "https://c2phub.example.edu/portfolio/abraham-enoch"
+      "portfolio_url": "https://lustrous-gingersnap-1dc1d9.netlify.app"
     },
     {
       "id": "student-014",
@@ -235,7 +235,31 @@
       "role": "Student",
       "level": "",
       "email": "mukailataiye@gmail.com",
-      "portfolio_url": "https://c2phub.example.edu/portfolio/mukaila-taiye-balikis"
+      "portfolio_url": "https://teetechie75.github.io/portfolio/about.html"
+    },
+    {
+      "id": "student-015",
+      "title": "Khadija Musa",
+      "date": "2021-09-01",
+      "category": "Student",
+      "description": "Student focused on product design.",
+      "image_url": "https://c2phub.example.edu/images/profile/khadija.jpg",
+      "role": "Student",
+      "level": "",
+      "email": "khadijamusa111@gmail.com",
+      "portfolio_url": "https://c2phub.example.edu/portfolio/khadija-musa"
+    },
+    {
+      "id": "student-016",
+      "title": "Khadija Khalid",
+      "date": "2021-09-01",
+      "category": "Student",
+      "description": "Student focused on AI/ML and web development.",
+      "image_url": "https://c2phub.example.edu/images/profile/khadija-khalid.jpg",
+      "role": "Student",
+      "level": "",
+      "email": "khadijakhalid128@gmail.com",
+      "portfolio_url": "https://khadijakhalid8033.github.io/my-portfolio/"
     }
   ],
   "gallery": [
