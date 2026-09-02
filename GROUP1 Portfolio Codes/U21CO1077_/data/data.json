@@ -1,0 +1,532 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "metadata": {
+    "title": "Taiye Mukaila Bilikis - Computer Engineering Portfolio Data Store",
+    "version": "2.0.0",
+    "lastUpdated": "2026-08-31",
+    "author": "Taiye Mukaila Bilikis",
+    "description": "Structured JSON entity dataset powering the multi-page static portfolio architecture and JSON-LD semantic representations."
+  },
+  "personal": {
+    "fullName": "Taiye Mukaila Bilikis",
+    "preferredName": "Taiye",
+    "title": "Future Computer Engineer & Networking Specialist",
+    "role": "Computer Engineering Student · Networking & Cybersecurity Enthusiast",
+    "tagline": "Learning, building, and growing through technology.",
+    "institution": "Ahmadu Bello University, Zaria",
+    "program": "B.Eng. Computer Engineering (Networking Track)",
+    "academicLevel": "500 Level · Final Year",
+    "expectedGraduation": 2026,
+    "location": {
+      "address": "244, Iju Road, by Balogun Market, Ishaga",
+      "city": "Lagos",
+      "state": "Lagos State",
+      "country": "Nigeria"
+    },
+    "contact": {
+      "email": "mukailataiye@gmail.com",
+      "phone": "+2349137893393",
+      "phoneDisplay": "09137893393",
+      "linkedIn": "https://www.linkedin.com/in/taiye-bilikis-973136257",
+      "gitHub": "https://github.com/teetechie75"
+    },
+    "bio": "I am a final-year Computer Engineering student at Ahmadu Bello University, Zaria, passionate about computer networking, cybersecurity, IoT architectures, and technology-driven problem solving. Through rigorous coursework, hands-on engineering projects, and industrial training at MTN Nigeria, I have developed strong foundational competencies in telecommunications infrastructure, network optimization, and connected embedded systems.",
+    "learningMindset": "I believe that technical competence is developed through continuous learning and practice. My approach is to learn new concepts, gain practical exposure, identify areas where I need improvement, and continue building my skills through projects, courses, and hands-on experience.",
+    "strengths": [
+      "Perseverance",
+      "Willingness to Learn",
+      "Discipline",
+      "Teamwork",
+      "Problem Solving",
+      "Adaptability",
+      "Commitment to Growth"
+    ]
+  },
+  "education": [
+    {
+      "id": "edu-abu-beng",
+      "degree": "Bachelor of Engineering (B.Eng.)",
+      "field": "Computer Engineering (Networking Track)",
+      "institution": "Ahmadu Bello University",
+      "campus": "Samaru Main Campus, Zaria, Kaduna State, Nigeria",
+      "period": "2020 - 2026",
+      "currentLevel": "500 Level (Final Year)",
+      "status": "In Progress (Expected Graduation: 2026)",
+      "highlights": [
+        "Specialized focus on Computer Networking, Protocol Analysis, and Network Security",
+        "Completed comprehensive engineering lab coursework across microprocessors, electronics, and algorithms",
+        "Successfully developed final-year capstone project on IoT-based Air Quality Monitoring"
+      ],
+      "relevantActivities": [
+        "Computer Engineering Core Coursework",
+        "Networking Lab Practical Work & Protocol Simulation",
+        "Final-Year Engineering Capstone Project",
+        "Professional Technical Training & Seminars",
+        "IoT Embedded Systems Development",
+        "Web Development & Systems Programming"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "cert-cisco-net",
+      "title": "Cisco Networking Basics",
+      "issuer": "Cisco Networking Academy",
+      "year": 2025,
+      "category": "Networking",
+      "verified": true
+    },
+    {
+      "id": "cert-cisco-hw",
+      "title": "Computer Hardware Basics",
+      "issuer": "Cisco Networking Academy",
+      "year": 2025,
+      "category": "Hardware & Systems",
+      "verified": true
+    },
+    {
+      "id": "cert-coursera-star",
+      "title": "Accomplishment of STAR Techniques",
+      "issuer": "Coursera",
+      "year": 2025,
+      "category": "Professional Skills",
+      "verified": true
+    },
+    {
+      "id": "cert-aws-cloud",
+      "title": "Cloud Foundations",
+      "issuer": "Amazon Web Services (AWS)",
+      "year": 2026,
+      "category": "Cloud Computing",
+      "verified": true
+    },
+    {
+      "id": "cert-alx-ai",
+      "title": "AI Career Essentials",
+      "issuer": "ALX",
+      "year": 2024,
+      "category": "Artificial Intelligence",
+      "verified": true
+    },
+    {
+      "id": "cert-cisco-it-essentials",
+      "title": "IT Essentials",
+      "issuer": "Cisco Networking Academy",
+      "year": 2024,
+      "category": "Systems & Maintenance",
+      "verified": true
+    },
+    {
+      "id": "cert-cisco-linux-essentials",
+      "title": "Linux Essentials",
+      "issuer": "Cisco Networking Academy",
+      "year": 2024,
+      "category": "Operating Systems",
+      "verified": true
+    }
+  ],
+  "additionalTraining": [
+    {
+      "id": "train-cisco-ethical-hacking",
+      "title": "Introduction to Ethical Hacking",
+      "provider": "Cisco Networking Academy",
+      "focus": "Security Fundamentals, Threat Assessment, Vulnerability Analysis"
+    },
+    {
+      "id": "train-cisco-data-analytics",
+      "title": "Data Analytics",
+      "provider": "Cisco Networking Academy",
+      "focus": "Data Processing, Quantitative Analysis, Statistical Tools"
+    },
+    {
+      "id": "train-cisco-modern-ai",
+      "title": "Introduction to Modern AI",
+      "provider": "Cisco Networking Academy",
+      "focus": "Machine Learning Paradigms, Neural Networks, AI Tooling"
+    },
+    {
+      "id": "train-coursera-ui-ux",
+      "title": "UI/UX Fundamentals",
+      "provider": "Coursera",
+      "focus": "User Experience Design, Wireframing, Visual Hierarchy"
+    },
+    {
+      "id": "train-computer-vision",
+      "title": "Computer Vision",
+      "provider": "Technical Training",
+      "focus": "Image Processing, Feature Extraction, Vision Models"
+    },
+    {
+      "id": "train-huawei-hcia",
+      "title": "HCIA Huawei Training",
+      "provider": "Huawei ICT Academy",
+      "focus": "Enterprise Routing & Switching, Telecommunications Architecture"
+    },
+    {
+      "id": "train-aws-ec2-iot",
+      "title": "IoT / Cloud Training (AWS EC2)",
+      "provider": "Cloud Computing Workshop",
+      "focus": "Virtual Machine Provisioning, Cloud Data Ingestion, MQTT Broker Configuration"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "slug": "programming",
+      "skills": [
+        {
+          "name": "Python",
+          "level": "Intermediate",
+          "focus": "Scripting, Automation & Data Handling"
+        },
+        {
+          "name": "MATLAB",
+          "level": "Intermediate",
+          "focus": "Signal Processing & Engineering Simulations"
+        },
+        {
+          "name": "C / C++ (Arduino)",
+          "level": "Intermediate",
+          "focus": "Microcontroller Firmware & Embedded Logic"
+        },
+        {
+          "name": "JavaScript (Core)",
+          "level": "Foundational",
+          "focus": "Syntax, Algorithms & Client-Side Concepts"
+        }
+      ]
+    },
+    {
+      "category": "Web Development",
+      "slug": "web-dev",
+      "skills": [
+        {
+          "name": "Semantic HTML5 / XHTML",
+          "level": "Advanced",
+          "focus": "Standards Compliance, Accessibility & JSON-LD"
+        },
+        {
+          "name": "CSS3 / Responsive Grid & Flexbox",
+          "level": "Advanced",
+          "focus": "Modern CSS Architecture, Pure CSS Interactivity"
+        },
+        {
+          "name": "Bootstrap",
+          "level": "Intermediate",
+          "focus": "Rapid Responsive Prototyping"
+        }
+      ]
+    },
+    {
+      "category": "Computer Networking & Telecommunications",
+      "slug": "networking",
+      "skills": [
+        {
+          "name": "Computer Networking Protocols",
+          "level": "Advanced",
+          "focus": "TCP/IP Suite, OSI Model, Subnetting, Routing"
+        },
+        {
+          "name": "Cisco Packet Tracer",
+          "level": "Advanced",
+          "focus": "Network Topology Design, VLANs, & NAT "
+        },
+        {
+          "name": "Network Planning & Optimization",
+          "level": "Intermediate",
+          "focus": "RF Coverage, Capacity & Site Surveys"
+        },
+        {
+          "name": "KPI Monitoring & Analysis",
+          "level": "Intermediate",
+          "focus": "Throughput, Latency, Drop Rate Analysis"
+        },
+        {
+          "name": "TEMS Investigation",
+          "level": "Intermediate",
+          "focus": "Drive Testing & Cellular RF Diagnostics"
+        },
+        {
+          "name": "MAPS Telecommunications Tool",
+          "level": "Intermediate",
+          "focus": "Network Performance Metric Visualisation"
+        },
+        {
+          "name": "Google Earth Pro & MapInfo",
+          "level": "Intermediate",
+          "focus": "Geographical Site Planning & RF Coordinate Mapping"
+        }
+      ]
+    },
+    {
+      "category": "IoT & Embedded Systems",
+      "slug": "iot",
+      "skills": [
+        {
+          "name": "ESP32 Microcontroller",
+          "level": "Advanced",
+          "focus": "Wi-Fi/BLE Integration, ADC Sampling & FreeRTOS"
+        },
+        {
+          "name": "Arduino Platform",
+          "level": "Advanced",
+          "focus": "Hardware Prototyping, Sensor Interfacing"
+        },
+        {
+          "name": "Gas & Environmental Sensors (MQ Series, PM)",
+          "level": "Advanced",
+          "focus": "Calibration, Analog/Digital Sampling"
+        },
+        {
+          "name": "ThingSpeak IoT Cloud",
+          "level": "Advanced",
+          "focus": "REST Channel Ingestion & MATLAB Analytics"
+        },
+        {
+          "name": "Blynk IoT Platform",
+          "level": "Intermediate",
+          "focus": "Mobile Dashboard Telemetry"
+        }
+      ]
+    },
+    {
+      "category": "Cloud & Database Systems",
+      "slug": "cloud",
+      "skills": [
+        {
+          "name": "AWS EC2",
+          "level": "Intermediate",
+          "focus": "Instance Provisioning, Security Groups & SSH Configuration"
+        },
+        {
+          "name": "Firebase Realtime Database",
+          "level": "Intermediate",
+          "focus": "NoSQL Cloud Telemetry & Push Notifications"
+        },
+        {
+          "name": "Cloud Architecture Concepts",
+          "level": "Intermediate",
+          "focus": "IaaS, PaaS, Cloud Security Fundamentals"
+        }
+      ]
+    },
+    {
+      "category": "Cybersecurity & Operating Systems",
+      "slug": "cybersecurity",
+      "skills": [
+        {
+          "name": "Ethical Hacking Fundamentals",
+          "level": "Intermediate",
+          "focus": "Port Scanning, Vulnerability Identification"
+        },
+        {
+          "name": "Cybersecurity Fundamentals",
+          "level": "Intermediate",
+          "focus": "CIA Triad, Cryptography, Defensive Controls"
+        },
+        {
+          "name": "Linux Operating Systems",
+          "level": "Intermediate",
+          "focus": "CLI Navigation, Permissions, Bash & System Administration"
+        }
+      ]
+    },
+    {
+      "category": "Software & Engineering Tooling",
+      "slug": "tools",
+      "skills": [
+        {
+          "name": "Visual Studio / VS Code",
+          "level": "Advanced",
+          "focus": "IDE Workflows & Code Structuring"
+        },
+        {
+          "name": "Arduino IDE",
+          "level": "Advanced",
+          "focus": "Firmware Compilation & Serial Diagnostics"
+        },
+        {
+          "name": "Git & GitHub",
+          "level": "Intermediate",
+          "focus": "Version Control & Repository Management"
+        }
+      ]
+    },
+    {
+      "category": "Soft Skills & Professional Attributes",
+      "slug": "soft-skills",
+      "skills": [
+        {
+          "name": "Teamwork & Collaboration",
+          "level": "Exemplary",
+          "focus": "Cross-functional Engineering Team Execution"
+        },
+        {
+          "name": "Technical Problem Solving",
+          "level": "Exemplary",
+          "focus": "Root Cause Analysis & Systems Debugging"
+        },
+        {
+          "name": "Technical Communication",
+          "level": "Exemplary",
+          "focus": "Engineering Documentation & Presentations"
+        },
+        {
+          "name": "Adaptability & Perseverance",
+          "level": "Exemplary",
+          "focus": "Continuous Learning in Emerging Domains"
+        },
+        {
+          "name": "Leadership & Initiative",
+          "level": "Exemplary",
+          "focus": "Project Organization & Execution"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-smart-air-quality",
+      "title": "Smart Air Quality Monitoring System",
+      "category": "IoT & Embedded Engineering",
+      "status": "Final-Year Capstone Project",
+      "role": "Final-Year Project Team Member (Development, Hardware Prototyping, Testing & Technical Documentation)",
+      "date": "2025 - 2026",
+      "image_url": "assets/images/pro.jpg",
+      "description": "An end-to-end IoT-based environmental intelligence system engineered to measure hazardous air pollutants in real time, persist historical telemetry to cloud platforms, and deliver actionable threshold-based alerts to mobile and web endpoints.",
+      "problem": "Poor ambient and indoor air quality poses severe respiratory health risks, yet real-time, localized pollutant telemetry remains unavailable in most residential and municipal settings due to the high cost of industrial monitoring stations.",
+      "purpose": "To architect an accessible, low-cost, accurate IoT air monitoring station using modular gas sensors and microcontroller telemetry, enabling autonomous pollutant tracking, cloud data aggregation, and instant mobile alerts.",
+      "technologies": [
+        "ESP32 Microcontroller",
+        "Arduino IDE / Embedded C++",
+        "MQ135 (Air Quality / Multi-Gas)",
+        "MQ9 (Carbon Monoxide / Combustible Gas)",
+        "MQ4 (Methane Sensing)",
+        "Particulate Matter (PM) Sensors",
+        "ThingSpeak Cloud Analytics",
+        "Firebase Realtime Database",
+        "Mobile Application Dashboard",
+        "Wi-Fi Telemetry Protocols (HTTP/REST & MQTT)"
+      ],
+      "features": [
+        "Autonomous multi-sensor data acquisition and ADC calibration",
+        "Real-time wireless telemetry transmission over Wi-Fi",
+        "Cloud storage and historical data charting on ThingSpeak",
+        "Live mobile dashboard for instantaneous readings",
+        "Programmable visual/buzzer and push notification threshold alerts",
+        "Modular embedded hardware architecture adaptable for indoor or outdoor deployment"
+      ]
+    },
+    {
+      "id": "proj-iot-cloud-ec2",
+      "title": "IoT Cloud Ingestion & AWS EC2 Infrastructure",
+      "category": "Cloud Computing & Systems",
+      "status": "Academic & Training Project",
+      "role": "Lead Student Developer",
+      "date": "2025",
+      "image_url": "assets/images/pro.jpg",
+      "description": "A cloud integration architecture connecting distributed IoT sensor telemetry with Amazon Web Services (AWS) Elastic Compute Cloud (EC2) virtual infrastructure for centralized ingestion, processing, and log archiving.",
+      "problem": "Bridging edge IoT sensor readings with scalable cloud infrastructure requires secure network provisioning, virtual server configuration, and reliable communication pipelines.",
+      "purpose": "To gain rigorous hands-on competence in deploying cloud virtual instances, establishing firewall security groups, and routing sensor telemetry into scalable cloud backend services.",
+      "technologies": [
+        "AWS EC2 Virtual Instances",
+        "Linux (Ubuntu Server)",
+        "IoT Sensor Ingestion",
+        "Security Groups & SSH Key Management",
+        "REST API & Webhook Endpoints"
+      ],
+      "features": [
+        "Provisioned and configured cloud virtual servers on AWS EC2",
+        "Implemented secure inbound/outbound networking rules and security groups",
+        "Established automated logging pipeline for incoming telemetry data packets",
+        "Demonstrated scalable end-to-end pipeline from physical sensor to cloud instance"
+      ]
+    },
+    {
+      "id": "proj-cisco-enterprise-network",
+      "title": "Multi-VLAN Enterprise Network Architecture Simulation",
+      "category": "Computer Networking",
+      "status": "Networking Practical Project",
+      "role": "Network Designer & Simulator",
+      "date": "2024 - 2025",
+      "image_url": "assets/images/pro.jpg",
+      "description": "A simulated enterprise campus network designed and configured in Cisco Packet Tracer, incorporating hierarchical multi-layer switching, VLAN segmentation, inter-VLAN routing, NAT, and DHCP",
+      "problem": "Unsegmented enterprise networks suffer from excessive broadcast traffic, security vulnerabilities across departmental boundaries, and lack of redundant routing paths.",
+      "purpose": "To design an enterprise network topology delivering high availability, deterministic traffic routing, access control security, and efficient IP address allocation.",
+      "technologies": [
+        "Cisco Packet Tracer",
+        "Cisco IOS CLI",
+        "VLANs & 802.1Q Trunking",
+        "Inter-VLAN Routing (Router-on-a-Stick & Layer 3 Switches)",
+        "Network Address Translation (NAT / PAT)",
+        "Access Control Lists (ACLs)"
+      ],
+      "features": [
+        "Hierarchical 3-tier enterprise campus design (Core, Distribution, Access)",
+        "Isolated departmental broadcast domains using 802.1Q tagged VLANs",
+        "Dynamic IP assignment via multi-pool DHCP server configuration",
+        "Secure external WAN connectivity with Overloaded NAT (PAT)",
+        "Traffic filtering and perimeter protection via Standard and Extended ACLs"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-mtn-napo",
+      "company": "MTN Nigeria Communications Plc",
+      "unit": "Network Access Planning and Optimization (NAPO)",
+      "location": "Falomo, Ikoyi, Lagos State, Nigeria",
+      "role": "Industrial Trainee / Engineering Intern",
+      "period": "Industrial Training Placement",
+      "keyContributions": [
+        "Participated in cellular network planning and optimization across 2G, 3G, 4G, and 5G cellular technologies",
+        "Conducted drive test data collection and RF diagnostics using TEMS Investigation software",
+        "Analyzed key performance indicators (KPIs) including Call Drop Rate (CDR), Handover Success Rate (HOSR), and throughput metrics using MAPS",
+        "Utilized Google Earth Pro and MapInfo GIS software for base transceiver station (BTS) site planning, coordinate plotting, and coverage azimuth verification",
+        "Gained direct exposure to telecommunications transmission systems, microwave links, and cellular antenna tilt optimizations"
+      ]
+    }
+  ],
+  "hobbiesAndInterests": {
+    "hobbies": [
+      {
+        "name": "Continuous Learning",
+        "description": "Exploring technological advancements, reading engineering papers, and taking professional certification courses."
+      },
+      {
+        "name": "Culinary Arts & Cooking",
+        "description": "Experimenting with creative recipes, meal preparation, and culinary precision."
+      },
+      {
+        "name": "Technical & Analytical Reading",
+        "description": "Reading documentation, cybersecurity briefs, tech essays, and personal development literature."
+      },
+      {
+        "name": "Positive Engagement & Smiling",
+        "description": "Cultivating optimism, fostering approachable interpersonal interactions, and maintaining high morale."
+      }
+    ],
+    "interests": [
+      {
+        "title": "Cybersecurity & Digital Defense",
+        "description": "Deepening practical capabilities in ethical hacking, vulnerability scanning, threat intelligence, and defensive network perimeter hardening."
+      },
+      {
+        "title": "Computer Networking & Telecommunications",
+        "description": "Mastering enterprise network engineering, routing protocols, software-defined networking (SDN), and next-generation cellular architectures."
+      },
+      {
+        "title": "Internet of Things (IoT) & Smart Systems",
+        "description": "Designing intelligent connected hardware, sensor networks, edge compute nodes, and cloud telemetry ingestion engines."
+      },
+      {
+        "title": "Technology for Social Impact",
+        "description": "Applying engineering principles to solve practical societal problems such as environmental protection, smart agriculture, and healthcare monitoring."
+      },
+      {
+        "title": "Continuous Technical Growth",
+        "description": "Actively participating in technical communities, hands-on lab experiments, and lifelong professional skill development."
+      }
+    ]
+  }
+}

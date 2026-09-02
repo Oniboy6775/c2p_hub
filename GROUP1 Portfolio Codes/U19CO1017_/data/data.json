@@ -1,0 +1,110 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "AI Medical Diagnostic Device",
+      "date": "2025",
+      "category": "AI + Embedded",
+      "description": "A portable diagnostic system combining embedded hardware, microscopy, computer vision and a desktop interface for automated malaria and stool analysis.",
+      "tech": ["Python", "React", "FastAPI", "Edge AI"],
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Lex Xperience",
+      "date": "2025",
+      "category": "Web",
+      "description": "A responsive event website with registration, conditional form fields and Paystack payment integration.",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "featured": false
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "title": "TeamABU2026 Team Picture",
+      "date": "2025",
+      "category": "competitions",
+      "description": "TeamABU2026 preparation session",
+      "image_url": "assets/images/main.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Hardware Coupling",
+      "date": "2025",
+      "category": "competitions",
+      "description": "On stage at a robotics and engineering competition",
+      "image_url": "assets/images/me.jpg"
+    },
+    {
+      "id": 3,
+      "title": "ParaVision hardware build",
+      "date": "2025",
+      "category": "projects",
+      "description": "Assembling the ParaVision edge-AI hardware",
+      "image_url": "assets/images/test.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Competition Day",
+      "date": "2025",
+      "category": "teaching",
+      "description": "Teaching the Web Programming track at Compeng Summer Coding for Kids",
+      "image_url": "assets/images/competition.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Late-night troubleshooting",
+      "date": "2025",
+      "category": "projects",
+      "description": "Troubleshooting late into the night",
+      "image_url": "assets/images/try.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Life at ABU Zaria",
+      "date": "2025",
+      "category": "campus",
+      "description": "Around campus at Ahmadu Bello University, Zaria",
+      "image_url": "assets/images/life.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Award",
+      "date": "2025",
+      "category": "competitions",
+      "description": "Receiving an award or certificate",
+      "image_url": "assets/images/award.jpg"
+    },
+    {
+      "id": 8,
+      "title": "With the students",
+      "date": "2025",
+      "category": "teaching",
+      "description": "With students from the coding class",
+      "image_url": "assets/images/web.jpeg"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "title": "Programming",
+      "description": "C, C++, Python, JavaScript"
+    },
+    {
+      "id": 2,
+      "title": "AI & Edge AI",
+      "description": "Computer vision, model deployment, inference"
+    },
+    {
+      "id": 3,
+      "title": "Embedded Systems",
+      "description": "GPIO, Linux, cameras, hardware integration"
+    },
+    {
+      "id": 4,
+      "title": "Web Development",
+      "description": "HTML, CSS, React, FastAPI, Electron"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Photo gallery of Grace Temitayo Olorunfemi — competitions, projects and moments along the way.">
+  <link rel="icon" type="image/png" href="assets/images/grace.png">
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <title>Gallery</title>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ImageGallery",
+      "@id": "https://gracetemitayo.netlify.app/gallery.html#page",
+      "url": "https://gracetemitayo.netlify.app/gallery.html",
+      "name": "Gallery | Grace Temitayo Olorunfemi",
+      "description": "A gallery of competitions, projects, teaching activities and campus moments.",
+      "author": {
+        "@id": "https://gracetemitayo.netlify.app/#grace"
+      },
+      "image": [
+        {
+          "@type": "ImageObject",
+          "name": "TeamABU2026 Team Picture",
+          "caption": "TeamABU2026 preparation session",
+          "contentUrl": "https://gracetemitayo.netlify.app/assets/images/main.jpg"
+        },
+        {
+          "@type": "ImageObject",
+          "name": "Hardware Coupling",
+          "caption": "Robotics and engineering competition",
+          "contentUrl": "https://gracetemitayo.netlify.app/assets/images/me.jpg"
+        },
+        {
+          "@type": "ImageObject",
+          "name": "ParaVision Hardware Build",
+          "caption": "Assembling the ParaVision edge-AI hardware",
+          "contentUrl": "https://gracetemitayo.netlify.app/assets/images/test.jpg"
+        },
+        {
+          "@type": "ImageObject",
+          "name": "Life at ABU Zaria",
+          "caption": "Around campus at Ahmadu Bello University, Zaria",
+          "contentUrl": "https://gracetemitayo.netlify.app/assets/images/life.jpg"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://gracetemitayo.netlify.app/#grace",
+      "name": "Grace Temitayo Olorunfemi"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+  <input type="checkbox" id="nav-open" class="nav-open">
+
+  <header class="phone-bar">
+    <a href="index.html" class="phone-brand">Grace</a>
+    <label for="nav-open" class="ham" aria-label="Toggle navigation" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </label>
+  </header>
+
+  <aside class="side-nav">
+    <div class="side-nav-top">
+      <nav id="primary-nav" class="links" aria-label="Main navigation">
+        <a href="index.html" class="link">Home</a>
+        <a href="about.html" class="link">About me</a>
+        <a href="education.html" class="link">Education</a>
+        <a href="skills.html" class="link">Skills</a>
+        <a href="projects.html" class="link">Projects</a>
+        <a href="gallery.html" class="link active">Gallery</a>
+        <a href="hobbies.html" class="link">Hobbies</a>
+        <a href="cv.html" class="link">CV</a>
+        <a href="contact.html" class="link">Contact</a>
+      </nav>
+    </div>
+    <div class="side-nav-base">
+      <div class="peer-links">
+        <a href="https://github.com/TemiGraceO" aria-label="GitHub profile" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/gracetolorunfemi" aria-label="LinkedIn profile" target="_blank">LinkedIn</a>
+        <a href="mailto:graceolorunfemi96@gmail.com" aria-label="Email Grace" target="_blank">Email</a>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main" class="main">
+    <section id="gallery" class="wrap-tight page-block">
+      <div class="head-block">
+        <h2 class="overline">Gallery</h2>
+        <h1>Moments along the way.</h1>
+      </div>
+
+      <!-- CSS-only filter: radios drive visibility via :checked ~ sibling selectors, no JS -->
+      <input type="radio" name="filter" id="pics-all" class="pic-filter" checked>
+      <input type="radio" name="filter" id="pics-competitions" class="pic-filter">
+      <input type="radio" name="filter" id="pics-projects" class="pic-filter">
+      <input type="radio" name="filter" id="pics-teaching" class="pic-filter">
+      <input type="radio" name="filter" id="pics-campus" class="pic-filter">
+
+      <div class="pic-tabs" role="group" aria-label="Filter gallery by category">
+        <label for="pics-all" class="pic-tab">All</label>
+        <label for="pics-competitions" class="pic-tab">Competitions</label>
+        <label for="pics-projects" class="pic-tab">Projects</label>
+        <label for="pics-teaching" class="pic-tab">Teaching</label>
+        <label for="pics-campus" class="pic-tab">Campus</label>
+      </div>
+
+      <div class="pic-board">
+        <a href="#lb-1" class="pic" data-category="competitions" aria-label="Open image: TeamABU2026 prep session">
+          <img src="assets/images/main.jpg" alt="TeamABU2026 preparation session" loading="lazy">
+          <div class="pic-cap"><span>Competitions</span><strong>TeamABU2026 Team Picture</strong></div>
+        </a>
+
+        <a href="#lb-2" class="pic" data-category="competitions" aria-label="Open image: Competition day">
+          <img src="assets/images/me.jpg" alt="On stage at a robotics and engineering competition" loading="lazy">
+          <div class="pic-cap"><span>Paravisioon</span><strong>Hardware Coupling</strong></div>
+        </a>
+
+        <a href="#lb-3" class="pic" data-category="projects" aria-label="Open image: ParaVision hardware build">
+          <img src="assets/images/test.jpg" alt="Assembling the ParaVision edge-AI hardware" loading="lazy">
+          <div class="pic-cap"><span>Projects</span><strong>ParaVision hardware build</strong></div>
+        </a>
+
+        <a href="#lb-4" class="pic" data-category="teaching" aria-label="Open image: Summer Coding for Kids">
+          <img src="assets/images/competition.jpg" alt="Teaching the Web Programming track at Compeng Summer Coding for Kids" loading="lazy">
+          <div class="pic-cap"><span>Competition</span><strong>Day</strong></div>
+        </a>
+
+        <a href="#lb-5" class="pic" data-category="projects" aria-label="Open image: Late-night debugging">
+          <img src="assets/images/try.jpg" alt="Troubleshooting late into the night" loading="lazy">
+          <div class="pic-cap"><span>Projects</span><strong>Late-night troubleshooting</strong></div>
+        </a>
+
+        <a href="#lb-6" class="pic" data-category="campus" aria-label="Open image: Life at ABU Zaria">
+          <img src="assets/images/life.jpg" alt="Around campus at Ahmadu Bello University, Zaria" loading="lazy">
+          <div class="pic-cap"><span>Campus</span><strong>Life at ABU Zaria</strong></div>
+        </a>
+
+        <a href="#lb-7" class="pic" data-category="competitions" aria-label="Open image: Award moment">
+          <img src="assets/images/award.jpg" alt="Receiving an award or certificate" loading="lazy">
+          <div class="pic-cap"><span>Competitions</span><strong>Award</strong></div>
+        </a>
+
+        <a href="#lb-8" class="pic" data-category="teaching" aria-label="Open image: With the students">
+          <img src="assets/images/web.jpeg" alt="With students from the coding class" loading="lazy">
+          <div class="pic-cap"><span>Teaching</span><strong>With the students</strong></div>
+        </a>
+      </div>
+
+      <div id="lb-1" class="lb">
+        <a href="#_" class="lb-bg" tabindex="-1" aria-label="Close lightbox"></a>
+        <div class="lb-frame">
+          <a href="#_" class="lb-x" aria-label="Close lightbox">&times;</a>
+          <img src="assets/images/main.jpg" alt="TeamABU2026 preparation session">
+          <div class="lb-cap">TeamABU2026 Team Picture</div>
+        </div>
+      </div>
+
+    
+      <div id="lb-2" class="lb">
+        <a href="#_" class="lb-bg" tabindex="-1" aria-label="Close lightbox"></a>
+        <div class="lb-frame">
+          <a href="#_" class="lb-x" aria-label="Close lightbox">&times;</a>
+          <img src="assets/images/me.jpg" alt="On stage at a robotics and engineering competition">
+          <div class="lb-cap">Hardware Coupling</div>
+        </div>
+      </div>
+
+      <div id="lb-3" class="lb">
+        <a href="#_" class="lb-bg" tabindex="-1" aria-label="Close lightbox"></a>
+        <div class="lb-frame">
+          <a href="#_" class="lb-x" aria-label="Close lightbox">&times;</a>
+          <img src="assets/images/test.jpg" alt="Assembling the ParaVision edge-AI hardware">
+          <div class="lb-cap">ParaVision hardware build</div>
+        </div>
+      </div>
+
+      <div id="lb-4" class="lb">
+        <a href="#_" class="lb-bg" tabindex="-1" aria-label="Close lightbox"></a>
+        <div class="lb-frame">
+          <a href="#_" class="lb-x" aria-label="Close lightbox">&times;</a>
+          <img src="assets/images/competition.jpg" alt="Teaching the Web Programming track">
+          <div class="lb-cap">Competition Day</div>
+        </div>
+      </div>
+
+      <div id="lb-5" class="lb">
+        <a href="#_" class="lb-bg" tabindex="-1" aria-label="Close lightbox"></a>
+        <div class="lb-frame">
+          <a href="#_" class="lb-x" aria-label="Close lightbox">&times;</a>
+          <img src="assets/images/try.jpg" alt="Troubleshooting late into the night">
+          <div class="lb-cap">Late-night troubleshooting</div>
+        </div>
+      </div>
+
+      <div id="lb-6" class="lb">
+        <a href="#_" class="lb-bg" tabindex="-1" aria-label="Close lightbox"></a>
+        <div class="lb-frame">
+          <a href="#_" class="lb-x" aria-label="Close lightbox">&times;</a>
+          <img src="assets/images/life.jpg" alt="Around campus at Ahmadu Bello University, Zaria">
+          <div class="lb-cap">Life at ABU Zaria</div>
+        </div>
+      </div>
+
+    
+      <div id="lb-7" class="lb">
+        <a href="#_" class="lb-bg" tabindex="-1" aria-label="Close lightbox"></a>
+        <div class="lb-frame">
+          <a href="#_" class="lb-x" aria-label="Close lightbox">&times;</a>
+          <img src="assets/images/award.jpg" alt="Receiving an award or certificate">
+          <div class="lb-cap">Award Moment</div>
+        </div>
+      </div>
+
+     
+      <div id="lb-8" class="lb">
+        <a href="#_" class="lb-bg" tabindex="-1" aria-label="Close lightbox"></a>
+        <div class="lb-frame">
+          <a href="#_" class="lb-x" aria-label="Close lightbox">&times;</a>
+          <img src="assets/images/web.jpeg" alt="With students from the coding class">
+          <div class="lb-cap">With the students</div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="foot">
+  <span>© 2026 Grace Temitayo Olorunfemi</span>
+  <a href="mailto:graceolorunfemi96@gmail.com">graceolorunfemi96@gmail.com</a>
+</footer>
+</body>
+</html>
