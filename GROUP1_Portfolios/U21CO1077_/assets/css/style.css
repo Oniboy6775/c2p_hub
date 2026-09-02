@@ -1,5 +1,5 @@
 /* ==========================================================================
-   TAIYE MUKAILA BILIKIS — COMPUTER ENGINEERING PORTFOLIO STYLESHEET
+   TAIYE MUKAILA BILIKIS  COMPUTER ENGINEERING PORTFOLIO STYLESHEET
    Pure XHTML/HTML5 + CSS3 Architecture (No JavaScript, No Frameworks)
    Theme: Engineered Emerald & Deep Forest Green
    ========================================================================== */
@@ -9,59 +9,67 @@
    -------------------------------------------------------------------------- */
 :root {
   /* Green / Emerald Color Palette */
-  --color-forest-deep:   #061A0A; /* Deepest Forest Background */
-  --color-forest-surface:#0B2410; /* Dark Card Surface */
-  --color-emerald-dark:  #01590E; /* Primary Brand Emerald */
-  --color-emerald-mid:   #157326; /* Mid Forest Green */
-  --color-mint-accent:   #10B981; /* High-Tech Mint Accent */
-  --color-mint-glow:     rgba(16, 185, 129, 0.22);
-  --color-mint-light:    #E9F5EC; /* Soft Mint Surface Tint */
-  --color-mint-border:   #C3E2CA;
+  --color-forest-deep: #061a0a; /* Deepest Forest Background */
+  --color-forest-surface: #0b2410; /* Dark Card Surface */
+  --color-emerald-dark: #01590e; /* Primary Brand Emerald */
+  --color-emerald-mid: #157326; /* Mid Forest Green */
+  --color-mint-accent: #10b981; /* High-Tech Mint Accent */
+  --color-mint-glow: rgba(16, 185, 129, 0.22);
+  --color-mint-light: #e9f5ec; /* Soft Mint Surface Tint */
+  --color-mint-border: #c3e2ca;
 
   /* Neutral Backgrounds & Surfaces */
-  --bg-canvas:           #F6FAF6; /* Off-white Mint Canvas */
-  --bg-surface:          #FFFFFF; /* White Card Surface */
-  --bg-surface-alt:      #EDF4EE; /* Slightly Tinted Surface */
+  --bg-canvas: #f6faf6; /* Off-white Mint Canvas */
+  --bg-surface: #ffffff; /* White Card Surface */
+  --bg-surface-alt: #edf4ee; /* Slightly Tinted Surface */
 
   /* Text & Readability */
-  --text-primary:        #142016; /* High Contrast Charcoal-Green */
-  --text-muted:          #4B5E4F; /* Muted Slate Green */
-  --text-inverse:        #E2EDE4; /* Light Text on Dark */
-  --text-inverse-muted:  #9EB4A2; /* Muted Text on Dark */
+  --text-primary: #142016; /* High Contrast Charcoal-Green */
+  --text-muted: #4b5e4f; /* Muted Slate Green */
+  --text-inverse: #e2ede4; /* Light Text on Dark */
+  --text-inverse-muted: #9eb4a2; /* Muted Text on Dark */
 
   /* Borders & Dividers */
-  --border-light:        #DCE8DE;
-  --border-subtle:       #EBF2EC;
-  --border-dark:         rgba(255, 255, 255, 0.12);
+  --border-light: #dce8de;
+  --border-subtle: #ebf2ec;
+  --border-dark: rgba(255, 255, 255, 0.12);
 
   /* Typography Stacks */
-  --font-heading:        'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-body:           'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-mono:           'IBM Plex Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  --font-heading:
+    "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  --font-body:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono:
+    "IBM Plex Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+    monospace;
 
   /* Layout & Spacing */
-  --container-max:       1140px;
-  --header-height:       76px;
-  --radius-sm:           6px;
-  --radius-md:           12px;
-  --radius-lg:           18px;
-  --radius-pill:         9999px;
+  --container-max: 1140px;
+  --header-height: 76px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 9999px;
 
   /* Elevation Shadows */
-  --shadow-subtle:       0 1px 3px rgba(6, 26, 10, 0.05), 0 1px 2px rgba(6, 26, 10, 0.03);
-  --shadow-card:         0 8px 24px rgba(6, 26, 10, 0.06);
-  --shadow-card-hover:   0 16px 36px rgba(1, 89, 14, 0.14);
-  --shadow-modal:        0 24px 64px rgba(6, 26, 10, 0.45);
+  --shadow-subtle:
+    0 1px 3px rgba(6, 26, 10, 0.05), 0 1px 2px rgba(6, 26, 10, 0.03);
+  --shadow-card: 0 8px 24px rgba(6, 26, 10, 0.06);
+  --shadow-card-hover: 0 16px 36px rgba(1, 89, 14, 0.14);
+  --shadow-modal: 0 24px 64px rgba(6, 26, 10, 0.45);
 
   /* Transitions */
-  --transition-fast:     0.18s cubic-bezier(0.16, 1, 0.3, 1);
-  --transition-normal:   0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.28s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* --------------------------------------------------------------------------
    2. MODERN CSS RESET & ACCESSIBILITY DEFAULTS
    -------------------------------------------------------------------------- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -101,11 +109,17 @@ a {
   transition: color var(--transition-fast);
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   color: var(--color-emerald-dark);
   line-height: 1.2;
@@ -113,7 +127,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
 }
 
-code, kbd, samp, pre {
+code,
+kbd,
+samp,
+pre {
   font-family: var(--font-mono);
 }
 
@@ -162,7 +179,9 @@ select:focus-visible {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
@@ -196,7 +215,11 @@ select:focus-visible {
 .trace-line {
   height: 2px;
   flex: 1;
-  background: linear-gradient(90deg, var(--color-mint-accent), rgba(16, 185, 129, 0.05));
+  background: linear-gradient(
+    90deg,
+    var(--color-mint-accent),
+    rgba(16, 185, 129, 0.05)
+  );
   border-radius: 2px;
 }
 
@@ -214,7 +237,11 @@ select:focus-visible {
 }
 
 .page-header {
-  background: linear-gradient(180deg, var(--color-forest-deep) 0%, var(--color-forest-surface) 100%);
+  background: linear-gradient(
+    180deg,
+    var(--color-forest-deep) 0%,
+    var(--color-forest-surface) 100%
+  );
   color: var(--text-inverse);
   padding-block: 56px 48px;
   border-bottom: 1px solid var(--border-dark);
@@ -226,8 +253,16 @@ select:focus-visible {
   position: absolute;
   inset: 0;
   background-image:
-    radial-gradient(circle at 10% 20%, rgba(16, 185, 129, 0.12) 0, transparent 35%),
-    radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.08) 0, transparent 40%);
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(16, 185, 129, 0.12) 0,
+      transparent 35%
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      rgba(16, 185, 129, 0.08) 0,
+      transparent 40%
+    );
   pointer-events: none;
 }
 .page-header-inner {
@@ -235,7 +270,7 @@ select:focus-visible {
   z-index: 1;
 }
 .page-header h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: clamp(2rem, 4vw, 2.8rem);
   margin-bottom: 10px;
 }
@@ -268,23 +303,23 @@ select:focus-visible {
   box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
 }
 .btn-primary:hover {
-  background-color: #34D399;
+  background-color: #34d399;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(16, 185, 129, 0.45);
 }
 .btn-ghost {
   background-color: transparent;
   border-color: rgba(255, 255, 255, 0.25);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .btn-ghost:hover {
   background-color: rgba(255, 255, 255, 0.1);
-  border-color: #FFFFFF;
+  border-color: #ffffff;
   transform: translateY(-2px);
 }
 .btn-solid-dark {
   background-color: var(--color-emerald-dark);
-  color: #FFFFFF;
+  color: #ffffff;
   border-color: var(--color-emerald-dark);
 }
 .btn-solid-dark:hover {
@@ -299,7 +334,7 @@ select:focus-visible {
 }
 .btn-outline-dark:hover {
   background-color: var(--color-emerald-dark);
-  color: #FFFFFF;
+  color: #ffffff;
   transform: translateY(-2px);
 }
 
@@ -323,7 +358,7 @@ select:focus-visible {
 }
 .chip:hover {
   background-color: var(--color-emerald-dark);
-  color: #FFFFFF;
+  color: #ffffff;
   border-color: var(--color-emerald-dark);
 }
 
@@ -331,7 +366,7 @@ select:focus-visible {
 .cta-band {
   margin-block: 60px 40px;
   padding: 36px 32px;
-  background: linear-gradient(135deg, var(--color-mint-light) 0%, #FFFFFF 100%);
+  background: linear-gradient(135deg, var(--color-mint-light) 0%, #ffffff 100%);
   border: 1px solid var(--color-mint-border);
   border-radius: var(--radius-md);
   display: flex;
@@ -374,7 +409,7 @@ select:focus-visible {
   font-family: var(--font-heading);
   font-weight: 700;
   font-size: 1.05rem;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -383,7 +418,11 @@ select:focus-visible {
   width: 36px;
   height: 36px;
   border-radius: 8px;
-  background: linear-gradient(135deg, var(--color-emerald-dark), var(--color-forest-deep));
+  background: linear-gradient(
+    135deg,
+    var(--color-emerald-dark),
+    var(--color-forest-deep)
+  );
   border: 1px solid var(--color-mint-accent);
   display: flex;
   align-items: center;
@@ -422,7 +461,7 @@ select:focus-visible {
   transition: all var(--transition-fast);
 }
 .nav-links a:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.05);
 }
 .nav-links a::after {
@@ -442,7 +481,7 @@ select:focus-visible {
   transform: scaleX(1);
 }
 .nav-links a[aria-current="page"] {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(16, 185, 129, 0.12);
 }
 .nav-links a[aria-current="page"]::after {
@@ -472,7 +511,7 @@ select:focus-visible {
 .nav-toggle-label span {
   width: 20px;
   height: 2px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: block;
   border-radius: 2px;
   transition: all var(--transition-fast);
@@ -532,7 +571,11 @@ select:focus-visible {
    -------------------------------------------------------------------------- */
 .hero {
   position: relative;
-  background: linear-gradient(160deg, var(--color-forest-deep) 0%, var(--color-forest-surface) 100%);
+  background: linear-gradient(
+    160deg,
+    var(--color-forest-deep) 0%,
+    var(--color-forest-surface) 100%
+  );
   color: var(--text-inverse);
   padding-block: 84px 96px;
   overflow: hidden;
@@ -542,8 +585,16 @@ select:focus-visible {
   position: absolute;
   inset: 0;
   background-image:
-    radial-gradient(circle at 18% 25%, rgba(16, 185, 129, 0.16) 0, transparent 40%),
-    radial-gradient(circle at 85% 75%, rgba(16, 185, 129, 0.1) 0, transparent 35%);
+    radial-gradient(
+      circle at 18% 25%,
+      rgba(16, 185, 129, 0.16) 0,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 85% 75%,
+      rgba(16, 185, 129, 0.1) 0,
+      transparent 35%
+    );
   pointer-events: none;
 }
 .hero-inner {
@@ -569,7 +620,7 @@ select:focus-visible {
   border: 1px solid rgba(16, 185, 129, 0.25);
 }
 .hero h1 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: clamp(2.2rem, 4.5vw, 3.2rem);
   margin-bottom: 8px;
 }
@@ -617,7 +668,11 @@ select:focus-visible {
   max-width: 360px;
   border-radius: var(--radius-lg);
   padding: 10px;
-  background: linear-gradient(145deg, rgba(16, 185, 129, 0.4), rgba(255, 255, 255, 0.05));
+  background: linear-gradient(
+    145deg,
+    rgba(16, 185, 129, 0.4),
+    rgba(255, 255, 255, 0.05)
+  );
   border: 1px solid rgba(16, 185, 129, 0.3);
   box-shadow: var(--shadow-modal);
 }
@@ -969,7 +1024,7 @@ details.accordion-group[open] summary::after {
 }
 .skill-tag:hover {
   background: var(--color-emerald-dark);
-  color: #FFFFFF;
+  color: #ffffff;
   border-color: var(--color-emerald-dark);
   transform: translateY(-2px);
 }
@@ -1065,7 +1120,9 @@ details.accordion-group[open] summary::after {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.3s ease, visibility 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease;
 }
 .modal-overlay:target {
   opacity: 1;
@@ -1110,7 +1167,7 @@ details.accordion-group[open] summary::after {
 }
 .modal-close:hover {
   background: var(--color-forest-deep);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* --------------------------------------------------------------------------
@@ -1164,7 +1221,11 @@ details.accordion-group[open] summary::after {
   margin-block: 48px;
 }
 .cv-top {
-  background: linear-gradient(135deg, var(--color-forest-deep) 0%, var(--color-forest-surface) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--color-forest-deep) 0%,
+    var(--color-forest-surface) 100%
+  );
   color: var(--text-inverse);
   padding: 40px 48px;
   display: flex;
@@ -1174,7 +1235,7 @@ details.accordion-group[open] summary::after {
   flex-wrap: wrap;
 }
 .cv-top h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 2rem;
   margin-bottom: 6px;
 }
@@ -1240,10 +1301,14 @@ details.accordion-group[open] summary::after {
 
 @media print {
   body {
-    background: #FFFFFF !important;
+    background: #ffffff !important;
     color: #000000 !important;
   }
-  .site-header, .site-footer, .cta-band, .skip-link, .page-header {
+  .site-header,
+  .site-footer,
+  .cta-band,
+  .skip-link,
+  .page-header {
     display: none !important;
   }
   .cv-shell {
@@ -1353,7 +1418,7 @@ details.accordion-group[open] summary::after {
 .form-row input:focus,
 .form-row textarea:focus,
 .form-row select:focus {
-  background: #FFFFFF;
+  background: #ffffff;
   border-color: var(--color-mint-accent);
 }
 .form-row textarea {
@@ -1385,7 +1450,7 @@ details.accordion-group[open] summary::after {
   margin-bottom: 48px;
 }
 .footer-brand h4 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.2rem;
   margin-bottom: 12px;
 }
@@ -1394,7 +1459,7 @@ details.accordion-group[open] summary::after {
   line-height: 1.6;
 }
 .site-footer h4 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 1.05rem;
   margin-bottom: 16px;
 }

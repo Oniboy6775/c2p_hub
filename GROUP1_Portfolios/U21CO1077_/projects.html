@@ -1,368 +1,499 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Engineering Projects | Taiye Mukaila Bilikis</title>
-  <meta name="description" content="Engineering and academic projects by Taiye Mukaila Bilikis, including the Smart Air Quality Monitoring System, AWS EC2 Cloud IoT infrastructure, and Cisco Enterprise Network Simulation.">
-  <meta name="author" content="Taiye Mukaila Bilikis">
-  <meta name="theme-color" content="#061A0A">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Engineering Projects | Taiye Mukaila Bilikis</title>
+    <meta
+      name="description"
+      content="Engineering and academic projects by Taiye Mukaila Bilikis, including the Smart Air Quality Monitoring System, AWS EC2 Cloud IoT infrastructure, and Cisco Enterprise Network Simulation."
+    />
+    <meta name="author" content="Taiye Mukaila Bilikis" />
+    <meta name="theme-color" content="#061A0A" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- JSON-LD Semantic Linked Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    "name": "Engineering Portfolio Projects of Taiye Mukaila Bilikis",
-    "author": {
-      "@type": "Person",
-      "name": "Taiye Mukaila Bilikis"
-    },
-    "hasPart": [
+    <!-- JSON-LD Semantic Linked Data -->
+    <script type="application/ld+json">
       {
-        "@type": "SoftwareSourceCode",
-        "name": "Smart Air Quality Monitoring System",
-        "programmingLanguage": "C++ (Embedded), Python",
-        "description": "IoT-based environmental air quality monitoring station using ESP32, MQ gas sensors, ThingSpeak cloud telemetry, and mobile application dashboards."
-      },
-      {
-        "@type": "SoftwareSourceCode",
-        "name": "IoT Cloud Ingestion & AWS EC2 Infrastructure",
-        "programmingLanguage": "Linux Bash, Python",
-        "description": "Cloud telemetry ingestion pipeline deploying AWS EC2 virtual compute instances with configured firewall security groups."
-      },
-      {
-        "@type": "SoftwareSourceCode",
-        "name": "Multi-VLAN Enterprise Network Simulation",
-        "programmingLanguage": "Cisco IOS CLI",
-        "description": "Hierarchical campus network simulation in Cisco Packet Tracer with 802.1Q VLAN trunking, OSPF dynamic routing, and NAT/PAT."
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Engineering Portfolio Projects of Taiye Mukaila Bilikis",
+        "author": {
+          "@type": "Person",
+          "name": "Taiye Mukaila Bilikis"
+        },
+        "hasPart": [
+          {
+            "@type": "SoftwareSourceCode",
+            "name": "Smart Air Quality Monitoring System",
+            "programmingLanguage": "C++ (Embedded), Python",
+            "description": "IoT-based environmental air quality monitoring station using ESP32, MQ gas sensors, ThingSpeak cloud telemetry, and mobile application dashboards."
+          },
+          {
+            "@type": "SoftwareSourceCode",
+            "name": "IoT Cloud Ingestion & AWS EC2 Infrastructure",
+            "programmingLanguage": "Linux Bash, Python",
+            "description": "Cloud telemetry ingestion pipeline deploying AWS EC2 virtual compute instances with configured firewall security groups."
+          }
+        ]
       }
-    ]
-  }
-  </script>
-</head>
-<body id="projects">
+    </script>
+  </head>
+  <body id="projects">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary Navigation">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">TB</span>
+          <span
+            >Taiye Mukaila Bilikis<small
+              >Networking &amp; Cybersecurity</small
+            ></span
+          >
+        </a>
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-label="Toggle navigation menu"
+        />
+        <label
+          for="nav-toggle"
+          class="nav-toggle-label"
+          aria-label="Open navigation menu"
+        >
+          <span></span><span></span><span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <header class="site-header">
-    <nav class="nav container" aria-label="Primary Navigation">
-      <a class="brand" href="index.html">
-        <span class="brand-mark" aria-hidden="true">TB</span>
-        <span>Taiye Mukaila Bilikis<small>Networking &amp; Cybersecurity</small></span>
-      </a>
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
-      <label for="nav-toggle" class="nav-toggle-label" aria-label="Open navigation menu">
-        <span></span><span></span><span></span>
-      </label>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="projects.html" aria-current="page">Projects</a></li>
-        <li><a href="hobbies.html">Hobbies</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main id="main-content">
-
-    <section class="page-header">
-      <div class="container page-header-inner">
-        <div class="trace">
-          <span class="trace-dot"></span>
-          <span class="trace-line"></span>
+    <main id="main-content">
+      <section class="page-header">
+        <div class="container page-header-inner">
+          <div class="trace">
+            <span class="trace-dot"></span>
+            <span class="trace-line"></span>
+          </div>
+          <h1>Engineering Projects</h1>
+          <p>
+            A showcase of capstone engineering, IoT prototyping, cloud
+            infrastructure, and network architecture simulations.
+          </p>
         </div>
-        <h1>Engineering Projects</h1>
-        <p>A showcase of capstone engineering, IoT prototyping, cloud infrastructure, and network architecture simulations.</p>
-      </div>
-    </section>
+      </section>
 
-    <section class="container" style="margin-top: 52px;">
+      <section class="container" style="margin-top: 52px">
+        <!-- PROJECT 1: SMART AIR QUALITY MONITORING SYSTEM -->
+        <article class="project-card" id="proj-air-quality">
+          <div class="project-media">
+            <img
+              src="assets/images/pro.jpg"
+              alt="Smart Air Quality Monitoring System Prototype Hardware"
+              onerror="this.src = 'pro.jpg'"
+            />
+          </div>
+          <div class="project-body">
+            <span class="status">Final-Year Capstone Project</span>
+            <h3>Smart Air Quality Monitoring System</h3>
+            <p class="role">
+              Role: Final-Year Project Team Member contributed to development,
+              hardware prototyping, sensor calibration, cloud telemetry,
+              testing, and technical documentation.
+            </p>
 
-      <!-- PROJECT 1: SMART AIR QUALITY MONITORING SYSTEM -->
-      <article class="project-card" id="proj-air-quality">
-        <div class="project-media">
-          <img src="assets/images/pro.jpg" alt="Smart Air Quality Monitoring System Prototype Hardware" onerror="this.src='pro.jpg'">
-        </div>
-        <div class="project-body">
-          <span class="status">Final-Year Capstone Project</span>
-          <h3>Smart Air Quality Monitoring System</h3>
-          <p class="role">Role: Final-Year Project Team Member — contributed to development, hardware prototyping, sensor calibration, cloud telemetry, testing, and technical documentation.</p>
+            <p class="desc">
+              An end-to-end IoT environmental monitoring station engineered to
+              collect real-time readings of hazardous atmospheric pollutants,
+              stream telemetry wirelessly via Wi-Fi, persist historical logs to
+              cloud platforms, and deliver threshold-based alerts to mobile
+              users.
+            </p>
 
-          <p class="desc">
-            An end-to-end IoT environmental monitoring station engineered to collect real-time readings of hazardous atmospheric pollutants, stream telemetry wirelessly via Wi-Fi, persist historical logs to cloud platforms, and deliver threshold-based alerts to mobile users.
+            <h4 class="project-subhead">Problem It Addresses</h4>
+            <p class="desc">
+              Poor ambient and indoor air quality poses severe health hazards.
+              Conventional monitoring stations are prohibitively expensive and
+              localized data is rarely accessible to vulnerable individuals.
+              This project delivers an accessible, low-cost telemetry solution.
+            </p>
+
+            <h4 class="project-subhead">Purpose &amp; Objective</h4>
+            <p class="desc">
+              To architect a robust IoT system utilizing an ESP32
+              microcontroller and multiple environmental gas sensors that
+              autonomously measures pollutant indices, synchronizes with
+              ThingSpeak and Firebase cloud databases, and triggers instant
+              alerts when danger thresholds are exceeded.
+            </p>
+
+            <h4 class="project-subhead">Technologies &amp; Components</h4>
+            <div class="chip-list">
+              <span class="chip">ESP32 Microcontroller</span>
+              <span class="chip">Arduino IDE / Embedded C++</span>
+              <span class="chip">MQ135 (Air Quality / Multi-Gas)</span>
+              <span class="chip">MQ9 (Carbon Monoxide)</span>
+              <span class="chip">MQ4 (Methane Sensing)</span>
+              <span class="chip">Particulate Matter (PM) Sensors</span>
+              <span class="chip">ThingSpeak IoT Cloud</span>
+              <span class="chip">Firebase Realtime DB</span>
+              <span class="chip">Mobile Application</span>
+              <span class="chip">Wi-Fi Telemetry</span>
+            </div>
+
+            <h4 class="project-subhead">Key System Features</h4>
+            <div class="chip-list">
+              <span class="chip">Real-time Multi-gas Sampling</span>
+              <span class="chip">Autonomous Sensor Calibration</span>
+              <span class="chip">Wi-Fi Telemetry Pipelines</span>
+              <span class="chip">Historical Time-series Charting</span>
+              <span class="chip">Interactive Mobile Telemetry</span>
+              <span class="chip">Threshold Warning Triggers</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-solid-dark" href="#modal-air-quality"
+                >View Architecture Specs &amp; Flow</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: IOT CLOUD INGESTION & AWS EC2 -->
+        <article class="project-card" id="proj-cloud-ec2">
+          <div class="project-body">
+            <span class="status">Cloud &amp; Systems Project</span>
+            <h3>IoT Cloud Ingestion &amp; AWS EC2 Infrastructure</h3>
+            <p class="role">Role: Lead Student Developer</p>
+
+            <p class="desc">
+              A scalable cloud integration framework connecting distributed IoT
+              sensor telemetry with Amazon Web Services (AWS) Elastic Compute
+              Cloud (EC2) virtual infrastructure for centralized log aggregation
+              and data processing.
+            </p>
+
+            <h4 class="project-subhead">Problem &amp; Objective</h4>
+            <p class="desc">
+              Bridging edge IoT sensor packets with enterprise cloud platforms
+              requires secure network ingress, virtual server provisioning, and
+              reliable communication endpoints. This project established a
+              secure ingestion pipeline on Linux virtual instances.
+            </p>
+
+            <h4 class="project-subhead">Technologies &amp; Infrastructure</h4>
+            <div class="chip-list">
+              <span class="chip">Amazon Web Services (AWS)</span>
+              <span class="chip">AWS EC2 Virtual Instances</span>
+              <span class="chip">Linux (Ubuntu Server)</span>
+              <span class="chip">Security Groups &amp; SSH Key Pairs</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-solid-dark" href="#modal-cloud-ec2"
+                >View Cloud Architecture Specs</a
+              >
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 3: CISCO PACKET TRACER ENTERPRISE TOPOLOGY -->
+        <article class="project-card" id="proj-cisco-network">
+          <div class="project-body">
+            <span class="status">Computer Networking Practical</span>
+            <h3>Multi-VLAN Enterprise Campus Network Simulation</h3>
+            <p class="role">Role: Network Designer &amp; Simulator</p>
+
+            <p class="desc">
+              A comprehensive enterprise campus network designed and configured
+              in Cisco Packet Tracer, incorporating hierarchical multi-layer
+              switching, 802.1Q VLAN segmentation, inter-VLAN routing, DHCP
+              server pools, and NAT/PAT perimeter translation.
+            </p>
+
+            <h4 class="project-subhead">Problem &amp; Objective</h4>
+            <p class="desc">
+              To eliminate flat network broadcast storms, enforce strict
+              departmental access boundaries, optimize routing efficiency, and
+              secure the enterprise perimeter against unauthorized WAN ingress.
+            </p>
+
+            <h4 class="project-subhead">Technologies &amp; Protocols</h4>
+            <div class="chip-list">
+              <span class="chip">Cisco Packet Tracer</span>
+              <span class="chip">Cisco IOS CLI</span>
+              <span class="chip">802.1Q VLAN Trunking</span>
+              <span class="chip">Inter-VLAN Routing</span>
+              <span class="chip">DHCP IP Pools</span>
+              <span class="chip">NAT / PAT Overloading</span>
+              <span class="chip">Standard &amp; Extended ACLs</span>
+            </div>
+
+            <div class="project-actions">
+              <a class="btn btn-solid-dark" href="#modal-cisco-network"
+                >View Network Topology Specs</a
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <div
+        id="modal-air-quality"
+        class="modal-overlay"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal1-title"
+      >
+        <div class="modal-dialog">
+          <a href="#projects" class="modal-close" aria-label="Close dialog"
+            >&times;</a
+          >
+          <span class="eyebrow" style="margin-bottom: 8px"
+            >Architecture Specification</span
+          >
+          <h2 id="modal1-title" style="margin-bottom: 14px">
+            Smart Air Quality Monitoring Architecture
+          </h2>
+          <p style="color: var(--text-muted); margin-bottom: 18px">
+            Detailed system dataflow from edge gas sensors through the ESP32
+            microcontroller to cloud persistence and mobile telemetry.
           </p>
 
-          <h4 class="project-subhead">Problem It Addresses</h4>
-          <p class="desc">
-            Poor ambient and indoor air quality poses severe health hazards. Conventional monitoring stations are prohibitively expensive and localized data is rarely accessible to vulnerable individuals. This project delivers an accessible, low-cost telemetry solution.
+          <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px">
+            1. Hardware &amp; Acquisition Layer
+          </h3>
+          <p style="font-size: 0.94rem; line-height: 1.6">
+            • <strong>MQ135:</strong> Calibrated for general air pollution
+            indices including Ammonia (NH3), NOx, alcohol, benzene, and
+            smoke.<br />
+            • <strong>MQ9:</strong> High-sensitivity detection for Carbon
+            Monoxide (CO) and combustible hydrocarbon gases.<br />
+            • <strong>MQ4:</strong> High-selectivity sensing for Methane (CH4)
+            and Compressed Natural Gas (CNG).<br />
+            • <strong>Particulate Matter (PM):</strong> Optical detection of
+            PM2.5 and PM10 airborne respirable particulates.
           </p>
 
-          <h4 class="project-subhead">Purpose &amp; Objective</h4>
-          <p class="desc">
-            To architect a robust IoT system utilizing an ESP32 microcontroller and multiple environmental gas sensors that autonomously measures pollutant indices, synchronizes with ThingSpeak and Firebase cloud databases, and triggers instant alerts when danger thresholds are exceeded.
+          <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px">
+            2. Microcontroller &amp; Firmware Layer
+          </h3>
+          <p style="font-size: 0.94rem; line-height: 1.6">
+            • <strong>ESP32 32-bit Dual-Core MCU:</strong> Handles multi-channel
+            analog-to-digital (ADC) conversions, digital filtering, and sensor
+            pre-heating algorithms.<br />
+            • <strong>Wi-Fi Telemetry:</strong> Transmits structured JSON
+            payload via HTTP/REST and MQTT protocols at deterministic intervals.
           </p>
 
-          <h4 class="project-subhead">Technologies &amp; Components</h4>
-          <div class="chip-list">
-            <span class="chip">ESP32 Microcontroller</span>
-            <span class="chip">Arduino IDE / Embedded C++</span>
-            <span class="chip">MQ135 (Air Quality / Multi-Gas)</span>
-            <span class="chip">MQ9 (Carbon Monoxide)</span>
-            <span class="chip">MQ4 (Methane Sensing)</span>
-            <span class="chip">Particulate Matter (PM) Sensors</span>
-            <span class="chip">ThingSpeak IoT Cloud</span>
-            <span class="chip">Firebase Realtime DB</span>
-            <span class="chip">Mobile Application</span>
-            <span class="chip">Wi-Fi Telemetry</span>
-          </div>
-
-          <h4 class="project-subhead">Key System Features</h4>
-          <div class="chip-list">
-            <span class="chip">Real-time Multi-gas Sampling</span>
-            <span class="chip">Autonomous Sensor Calibration</span>
-            <span class="chip">Wi-Fi Telemetry Pipelines</span>
-            <span class="chip">Historical Time-series Charting</span>
-            <span class="chip">Interactive Mobile Telemetry</span>
-            <span class="chip">Threshold Warning Triggers</span>
-          </div>
-
-          <div class="project-actions">
-            <a class="btn btn-solid-dark" href="#modal-air-quality">View Architecture Specs &amp; Flow</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- PROJECT 2: IOT CLOUD INGESTION & AWS EC2 -->
-      <article class="project-card" id="proj-cloud-ec2">
-        <div class="project-body">
-          <span class="status">Cloud &amp; Systems Project</span>
-          <h3>IoT Cloud Ingestion &amp; AWS EC2 Infrastructure</h3>
-          <p class="role">Role: Lead Student Developer</p>
-
-          <p class="desc">
-            A scalable cloud integration framework connecting distributed IoT sensor telemetry with Amazon Web Services (AWS) Elastic Compute Cloud (EC2) virtual infrastructure for centralized log aggregation and data processing.
+          <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px">
+            3. Cloud Persistence &amp; Visualization Layer
+          </h3>
+          <p style="font-size: 0.94rem; line-height: 1.6">
+            • <strong>ThingSpeak IoT:</strong> Continuous time-series charting
+            and historical data logging with MATLAB-powered analytics.<br />
+            • <strong>Firebase Realtime Database:</strong> Sub-second sync for
+            real-time mobile push notifications and emergency alerts.
           </p>
 
-          <h4 class="project-subhead">Problem &amp; Objective</h4>
-          <p class="desc">
-            Bridging edge IoT sensor packets with enterprise cloud platforms requires secure network ingress, virtual server provisioning, and reliable communication endpoints. This project established a secure ingestion pipeline on Linux virtual instances.
-          </p>
-
-          <h4 class="project-subhead">Technologies &amp; Infrastructure</h4>
-          <div class="chip-list">
-            <span class="chip">Amazon Web Services (AWS)</span>
-            <span class="chip">AWS EC2 Virtual Instances</span>
-            <span class="chip">Linux (Ubuntu Server)</span>
-            <span class="chip">Security Groups &amp; SSH Key Pairs</span>
-            <span class="chip">REST Endpoints &amp; Webhooks</span>
-            <span class="chip">IoT Telemetry Ingestion</span>
+          <div style="margin-top: 28px; text-align: right">
+            <a class="btn btn-solid-dark" href="#projects">Back to Projects</a>
           </div>
-
-          <div class="project-actions">
-            <a class="btn btn-solid-dark" href="#modal-cloud-ec2">View Cloud Architecture Specs</a>
-          </div>
-        </div>
-      </article>
-
-      <!-- PROJECT 3: CISCO PACKET TRACER ENTERPRISE TOPOLOGY -->
-      <article class="project-card" id="proj-cisco-network">
-        <div class="project-body">
-          <span class="status">Computer Networking Practical</span>
-          <h3>Multi-VLAN Enterprise Campus Network Simulation</h3>
-          <p class="role">Role: Network Designer &amp; Simulator</p>
-
-          <p class="desc">
-            A comprehensive enterprise campus network designed and configured in Cisco Packet Tracer, incorporating hierarchical multi-layer switching, 802.1Q VLAN segmentation, inter-VLAN routing, dynamic OSPF, DHCP server pools, and NAT/PAT perimeter translation.
-          </p>
-
-          <h4 class="project-subhead">Problem &amp; Objective</h4>
-          <p class="desc">
-            To eliminate flat network broadcast storms, enforce strict departmental access boundaries, optimize routing efficiency, and secure the enterprise perimeter against unauthorized WAN ingress.
-          </p>
-
-          <h4 class="project-subhead">Technologies &amp; Protocols</h4>
-          <div class="chip-list">
-            <span class="chip">Cisco Packet Tracer</span>
-            <span class="chip">Cisco IOS CLI</span>
-            <span class="chip">802.1Q VLAN Trunking</span>
-            <span class="chip">Inter-VLAN Routing</span>
-            <span class="chip">OSPF Dynamic Routing</span>
-            <span class="chip">DHCP IP Pools</span>
-            <span class="chip">NAT / PAT Overloading</span>
-            <span class="chip">Standard &amp; Extended ACLs</span>
-          </div>
-
-          <div class="project-actions">
-            <a class="btn btn-solid-dark" href="#modal-cisco-network">View Network Topology Specs</a>
-          </div>
-        </div>
-      </article>
-
-    </section>
-
-    <!-- ======================================================================
-         PURE CSS MODAL OVERLAYS (NO JAVASCRIPT — ACTIVATED VIA :TARGET)
-         ====================================================================== -->
-
-    <!-- Modal 1: Smart Air Quality Monitoring System -->
-    <div id="modal-air-quality" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal1-title">
-      <div class="modal-dialog">
-        <a href="#projects" class="modal-close" aria-label="Close dialog">&times;</a>
-        <span class="eyebrow" style="margin-bottom:8px;">Architecture Specification</span>
-        <h2 id="modal1-title" style="margin-bottom:14px;">Smart Air Quality Monitoring Architecture</h2>
-        <p style="color:var(--text-muted); margin-bottom:18px;">
-          Detailed system dataflow from edge gas sensors through the ESP32 microcontroller to cloud persistence and mobile telemetry.
-        </p>
-
-        <h3 style="font-size:1.15rem; margin-top:20px; margin-bottom:8px;">1. Hardware &amp; Acquisition Layer</h3>
-        <p style="font-size:0.94rem; line-height:1.6;">
-          • <strong>MQ135:</strong> Calibrated for general air pollution indices including Ammonia (NH3), NOx, alcohol, benzene, and smoke.<br>
-          • <strong>MQ9:</strong> High-sensitivity detection for Carbon Monoxide (CO) and combustible hydrocarbon gases.<br>
-          • <strong>MQ4:</strong> High-selectivity sensing for Methane (CH4) and Compressed Natural Gas (CNG).<br>
-          • <strong>Particulate Matter (PM):</strong> Optical detection of PM2.5 and PM10 airborne respirable particulates.
-        </p>
-
-        <h3 style="font-size:1.15rem; margin-top:20px; margin-bottom:8px;">2. Microcontroller &amp; Firmware Layer</h3>
-        <p style="font-size:0.94rem; line-height:1.6;">
-          • <strong>ESP32 32-bit Dual-Core MCU:</strong> Handles multi-channel analog-to-digital (ADC) conversions, digital filtering, and sensor pre-heating algorithms.<br>
-          • <strong>Wi-Fi Telemetry:</strong> Transmits structured JSON payload via HTTP/REST and MQTT protocols at deterministic intervals.
-        </p>
-
-        <h3 style="font-size:1.15rem; margin-top:20px; margin-bottom:8px;">3. Cloud Persistence &amp; Visualization Layer</h3>
-        <p style="font-size:0.94rem; line-height:1.6;">
-          • <strong>ThingSpeak IoT:</strong> Continuous time-series charting and historical data logging with MATLAB-powered analytics.<br>
-          • <strong>Firebase Realtime Database:</strong> Sub-second sync for real-time mobile push notifications and emergency alerts.
-        </p>
-
-        <div style="margin-top:28px; text-align:right;">
-          <a class="btn btn-solid-dark" href="#projects">Back to Projects</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 2: IoT Cloud / AWS EC2 -->
-    <div id="modal-cloud-ec2" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal2-title">
-      <div class="modal-dialog">
-        <a href="#projects" class="modal-close" aria-label="Close dialog">&times;</a>
-        <span class="eyebrow" style="margin-bottom:8px;">Cloud Infrastructure Specification</span>
-        <h2 id="modal2-title" style="margin-bottom:14px;">AWS EC2 Telemetry Ingestion Architecture</h2>
-        <p style="color:var(--text-muted); margin-bottom:18px;">
-          Configuration details for virtual server deployment, security isolation, and reliable IoT telemetry processing.
-        </p>
-
-        <h3 style="font-size:1.15rem; margin-top:20px; margin-bottom:8px;">1. Virtual Instance Provisioning</h3>
-        <p style="font-size:0.94rem; line-height:1.6;">
-          • Deployed Ubuntu Server LTS virtual compute instance on AWS Elastic Compute Cloud (EC2).<br>
-          • Configured RSA public/private cryptographic key authentication for secure administrative SSH management.
-        </p>
-
-        <h3 style="font-size:1.15rem; margin-top:20px; margin-bottom:8px;">2. Network Security &amp; Firewall Rules</h3>
-        <p style="font-size:0.94rem; line-height:1.6;">
-          • Customized AWS Security Groups to strictly permit inbound HTTPS (Port 443) and specified MQTT broker ports while disabling unencrypted endpoints.<br>
-          • Set up fail2ban and perimeter firewall rules on Linux to mitigate brute-force attempts.
-        </p>
-
-        <div style="margin-top:28px; text-align:right;">
-          <a class="btn btn-solid-dark" href="#projects">Back to Projects</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 3: Cisco Enterprise Network -->
-    <div id="modal-cisco-network" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal3-title">
-      <div class="modal-dialog">
-        <a href="#projects" class="modal-close" aria-label="Close dialog">&times;</a>
-        <span class="eyebrow" style="margin-bottom:8px;">Network Topology Specification</span>
-        <h2 id="modal3-title" style="margin-bottom:14px;">Enterprise Campus Network Simulation</h2>
-        <p style="color:var(--text-muted); margin-bottom:18px;">
-          Hierarchical topology design in Cisco Packet Tracer featuring VLAN segmentation and dynamic routing.
-        </p>
-
-        <h3 style="font-size:1.15rem; margin-top:20px; margin-bottom:8px;">1. Switching &amp; VLAN Architecture</h3>
-        <p style="font-size:0.94rem; line-height:1.6;">
-          • Segmented network into Departmental VLANs (Management, Engineering, Operations, Guest).<br>
-          • Implemented 802.1Q trunking with Spanning Tree Protocol (STP) to eliminate switching loops and provide link redundancy.
-        </p>
-
-        <h3 style="font-size:1.15rem; margin-top:20px; margin-bottom:8px;">2. Routing, Addressing &amp; Security</h3>
-        <p style="font-size:0.94rem; line-height:1.6;">
-          • Configured OSPF (Open Shortest Path First) Single-Area routing for dynamic convergence across core routers.<br>
-          • Configured Port Address Translation (NAT Overload) for WAN access and Extended ACLs for inter-VLAN access control.
-        </p>
-
-        <div style="margin-top:28px; text-align:right;">
-          <a class="btn btn-solid-dark" href="#projects">Back to Projects</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- CTA Band -->
-    <section class="container">
-      <div class="cta-band">
-        <div>
-          <h2>Interested in Collaborating or Reviewing Code?</h2>
-          <p>Contact me directly or explore my full Curriculum Vitae.</p>
-        </div>
-        <div style="display:flex; gap:12px; flex-wrap:wrap;">
-          <a class="btn btn-solid-dark" href="contact.html">Contact Me</a>
-          <a class="btn btn-outline-dark" href="cv.html">Curriculum Vitae</a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <h4>Taiye Mukaila Bilikis</h4>
-          <p>Computer Engineering Student · Networking &amp; Cybersecurity Enthusiast, Ahmadu Bello University, Zaria.</p>
-        </div>
-
-        <div>
-          <h4>Quick Links</h4>
-          <ul class="footer-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4>Contact &amp; Connect</h4>
-          <ul class="footer-contact">
-            <li>Email: <a href="mailto:mukailataiye@gmail.com">mukailataiye@gmail.com</a></li>
-            <li>Phone: <a href="tel:+2349137893393">09137893393</a></li>
-            <li>Location: 244, Iju Road, by Balogun Market, Ishaga, Lagos</li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/taiye-bilikis-973136257" target="_blank" rel="noopener noreferrer">taiye-bilikis-973136257</a></li>
-            <li>GitHub: <a href="https://github.com/teetechie75" target="_blank" rel="noopener noreferrer">github.com/teetechie75</a></li>
-          </ul>
         </div>
       </div>
 
-      <div class="footer-bottom">
-        <span>&copy; 2026 Taiye Mukaila Bilikis. All Rights Reserved.</span>
-        <span>Built with Semantic XHTML/HTML5, CSS3, and JSON Structured Data.</span>
-      </div>
-    </div>
-  </footer>
+      <!-- Modal 2: IoT Cloud / AWS EC2 -->
+      <div
+        id="modal-cloud-ec2"
+        class="modal-overlay"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal2-title"
+      >
+        <div class="modal-dialog">
+          <a href="#projects" class="modal-close" aria-label="Close dialog"
+            >&times;</a
+          >
+          <span class="eyebrow" style="margin-bottom: 8px"
+            >Cloud Infrastructure Specification</span
+          >
+          <h2 id="modal2-title" style="margin-bottom: 14px">
+            AWS EC2 Telemetry Ingestion Architecture
+          </h2>
+          <p style="color: var(--text-muted); margin-bottom: 18px">
+            Configuration details for virtual server deployment, security
+            isolation, and reliable IoT telemetry processing.
+          </p>
 
-</body>
+          <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px">
+            1. Virtual Instance Provisioning
+          </h3>
+          <p style="font-size: 0.94rem; line-height: 1.6">
+            • Deployed Ubuntu Server LTS virtual compute instance on AWS Elastic
+            Compute Cloud (EC2).<br />
+            • Configured RSA public/private cryptographic key authentication for
+            secure administrative SSH management.
+          </p>
+
+          <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px">
+            2. Network Security &amp; Firewall Rules
+          </h3>
+          <p style="font-size: 0.94rem; line-height: 1.6">
+            • Customized AWS Security Groups to strictly permit inbound HTTPS
+            (Port 443) and specified MQTT broker ports while disabling
+            unencrypted endpoints.<br />
+            • Set up fail2ban and perimeter firewall rules on Linux to mitigate
+            brute-force attempts.
+          </p>
+
+          <div style="margin-top: 28px; text-align: right">
+            <a class="btn btn-solid-dark" href="#projects">Back to Projects</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal 3: Cisco Enterprise Network -->
+      <div
+        id="modal-cisco-network"
+        class="modal-overlay"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal3-title"
+      >
+        <div class="modal-dialog">
+          <a href="#projects" class="modal-close" aria-label="Close dialog"
+            >&times;</a
+          >
+          <span class="eyebrow" style="margin-bottom: 8px"
+            >Network Topology Specification</span
+          >
+          <h2 id="modal3-title" style="margin-bottom: 14px">
+            Enterprise Campus Network Simulation
+          </h2>
+          <p style="color: var(--text-muted); margin-bottom: 18px">
+            Hierarchical topology design in Cisco Packet Tracer featuring VLAN
+            segmentation and dynamic routing.
+          </p>
+
+          <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px">
+            1. Switching &amp; VLAN Architecture
+          </h3>
+          <p style="font-size: 0.94rem; line-height: 1.6">
+            • Segmented network into Departmental VLANs (Management,
+            Engineering, Operations, Guest).<br />
+            • Implemented 802.1Q trunking with Spanning Tree Protocol (STP) to
+            eliminate switching loops and provide link redundancy.
+          </p>
+
+          <h3 style="font-size: 1.15rem; margin-top: 20px; margin-bottom: 8px">
+            2. Routing, Addressing &amp; Security
+          </h3>
+          <p style="font-size: 0.94rem; line-height: 1.6">
+            • Configured Port Address Translation (NAT Overload) for WAN access
+            and Extended ACLs for inter-VLAN access control.
+          </p>
+
+          <div style="margin-top: 28px; text-align: right">
+            <a class="btn btn-solid-dark" href="#projects">Back to Projects</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Band -->
+      <section class="container">
+        <div class="cta-band">
+          <div>
+            <h2>Interested in Collaborating or Reviewing Code?</h2>
+            <p>Contact me directly or explore my full Curriculum Vitae.</p>
+          </div>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap">
+            <a class="btn btn-solid-dark" href="contact.html">Contact Me</a>
+            <a class="btn btn-outline-dark" href="cv.html">Curriculum Vitae</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <h4>Taiye Mukaila Bilikis</h4>
+            <p>
+              Computer Engineering Student · Networking &amp; Cybersecurity
+              Enthusiast, Ahmadu Bello University, Zaria.
+            </p>
+          </div>
+
+          <div>
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Me</a></li>
+              <li><a href="education.html">Education</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="hobbies.html">Hobbies</a></li>
+              <li><a href="cv.html">CV</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Contact &amp; Connect</h4>
+            <ul class="footer-contact">
+              <li>
+                Email:
+                <a href="mailto:mukailataiye@gmail.com"
+                  >mukailataiye@gmail.com</a
+                >
+              </li>
+              <li>Phone: <a href="tel:+2349137893393">09137893393</a></li>
+              <li>Location: 244, Iju Road, by Balogun Market, Ishaga, Lagos</li>
+              <li>
+                LinkedIn:
+                <a
+                  href="https://www.linkedin.com/in/taiye-bilikis-973136257"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >taiye-bilikis-973136257</a
+                >
+              </li>
+              <li>
+                GitHub:
+                <a
+                  href="https://github.com/teetechie75"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >github.com/teetechie75</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>&copy; 2026 Taiye Mukaila Bilikis. All Rights Reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

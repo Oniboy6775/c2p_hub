@@ -174,81 +174,213 @@
       "category": "Programming Languages",
       "slug": "programming",
       "skills": [
-        { "name": "Python", "level": "Intermediate", "focus": "Scripting, Automation & Data Handling" },
-        { "name": "MATLAB", "level": "Intermediate", "focus": "Signal Processing & Engineering Simulations" },
-        { "name": "C / C++ (Arduino)", "level": "Intermediate", "focus": "Microcontroller Firmware & Embedded Logic" },
-        { "name": "JavaScript (Core)", "level": "Foundational", "focus": "Syntax, Algorithms & Client-Side Concepts" }
+        {
+          "name": "Python",
+          "level": "Intermediate",
+          "focus": "Scripting, Automation & Data Handling"
+        },
+        {
+          "name": "MATLAB",
+          "level": "Intermediate",
+          "focus": "Signal Processing & Engineering Simulations"
+        },
+        {
+          "name": "C / C++ (Arduino)",
+          "level": "Intermediate",
+          "focus": "Microcontroller Firmware & Embedded Logic"
+        },
+        {
+          "name": "JavaScript (Core)",
+          "level": "Foundational",
+          "focus": "Syntax, Algorithms & Client-Side Concepts"
+        }
       ]
     },
     {
       "category": "Web Development",
       "slug": "web-dev",
       "skills": [
-        { "name": "Semantic HTML5 / XHTML", "level": "Advanced", "focus": "Standards Compliance, Accessibility & JSON-LD" },
-        { "name": "CSS3 / Responsive Grid & Flexbox", "level": "Advanced", "focus": "Modern CSS Architecture, Pure CSS Interactivity" },
-        { "name": "Bootstrap", "level": "Intermediate", "focus": "Rapid Responsive Prototyping" }
+        {
+          "name": "Semantic HTML5 / XHTML",
+          "level": "Advanced",
+          "focus": "Standards Compliance, Accessibility & JSON-LD"
+        },
+        {
+          "name": "CSS3 / Responsive Grid & Flexbox",
+          "level": "Advanced",
+          "focus": "Modern CSS Architecture, Pure CSS Interactivity"
+        },
+        {
+          "name": "Bootstrap",
+          "level": "Intermediate",
+          "focus": "Rapid Responsive Prototyping"
+        }
       ]
     },
     {
       "category": "Computer Networking & Telecommunications",
       "slug": "networking",
       "skills": [
-        { "name": "Computer Networking Protocols", "level": "Advanced", "focus": "TCP/IP Suite, OSI Model, Subnetting, Routing" },
-        { "name": "Cisco Packet Tracer", "level": "Advanced", "focus": "Network Topology Design, VLANs, NAT & OSPF" },
-        { "name": "Network Planning & Optimization", "level": "Intermediate", "focus": "RF Coverage, Capacity & Site Surveys" },
-        { "name": "KPI Monitoring & Analysis", "level": "Intermediate", "focus": "Throughput, Latency, Drop Rate Analysis" },
-        { "name": "TEMS Investigation", "level": "Intermediate", "focus": "Drive Testing & Cellular RF Diagnostics" },
-        { "name": "MAPS Telecommunications Tool", "level": "Intermediate", "focus": "Network Performance Metric Visualisation" },
-        { "name": "Google Earth Pro & MapInfo", "level": "Intermediate", "focus": "Geographical Site Planning & RF Coordinate Mapping" }
+        {
+          "name": "Computer Networking Protocols",
+          "level": "Advanced",
+          "focus": "TCP/IP Suite, OSI Model, Subnetting, Routing"
+        },
+        {
+          "name": "Cisco Packet Tracer",
+          "level": "Advanced",
+          "focus": "Network Topology Design, VLANs, & NAT "
+        },
+        {
+          "name": "Network Planning & Optimization",
+          "level": "Intermediate",
+          "focus": "RF Coverage, Capacity & Site Surveys"
+        },
+        {
+          "name": "KPI Monitoring & Analysis",
+          "level": "Intermediate",
+          "focus": "Throughput, Latency, Drop Rate Analysis"
+        },
+        {
+          "name": "TEMS Investigation",
+          "level": "Intermediate",
+          "focus": "Drive Testing & Cellular RF Diagnostics"
+        },
+        {
+          "name": "MAPS Telecommunications Tool",
+          "level": "Intermediate",
+          "focus": "Network Performance Metric Visualisation"
+        },
+        {
+          "name": "Google Earth Pro & MapInfo",
+          "level": "Intermediate",
+          "focus": "Geographical Site Planning & RF Coordinate Mapping"
+        }
       ]
     },
     {
       "category": "IoT & Embedded Systems",
       "slug": "iot",
       "skills": [
-        { "name": "ESP32 Microcontroller", "level": "Advanced", "focus": "Wi-Fi/BLE Integration, ADC Sampling & FreeRTOS" },
-        { "name": "Arduino Platform", "level": "Advanced", "focus": "Hardware Prototyping, Sensor Interfacing" },
-        { "name": "Gas & Environmental Sensors (MQ Series, PM)", "level": "Advanced", "focus": "Calibration, Analog/Digital Sampling" },
-        { "name": "ThingSpeak IoT Cloud", "level": "Advanced", "focus": "REST Channel Ingestion & MATLAB Analytics" },
-        { "name": "Blynk IoT Platform", "level": "Intermediate", "focus": "Mobile Dashboard Telemetry" }
+        {
+          "name": "ESP32 Microcontroller",
+          "level": "Advanced",
+          "focus": "Wi-Fi/BLE Integration, ADC Sampling & FreeRTOS"
+        },
+        {
+          "name": "Arduino Platform",
+          "level": "Advanced",
+          "focus": "Hardware Prototyping, Sensor Interfacing"
+        },
+        {
+          "name": "Gas & Environmental Sensors (MQ Series, PM)",
+          "level": "Advanced",
+          "focus": "Calibration, Analog/Digital Sampling"
+        },
+        {
+          "name": "ThingSpeak IoT Cloud",
+          "level": "Advanced",
+          "focus": "REST Channel Ingestion & MATLAB Analytics"
+        },
+        {
+          "name": "Blynk IoT Platform",
+          "level": "Intermediate",
+          "focus": "Mobile Dashboard Telemetry"
+        }
       ]
     },
     {
       "category": "Cloud & Database Systems",
       "slug": "cloud",
       "skills": [
-        { "name": "AWS EC2", "level": "Intermediate", "focus": "Instance Provisioning, Security Groups & SSH Configuration" },
-        { "name": "Firebase Realtime Database", "level": "Intermediate", "focus": "NoSQL Cloud Telemetry & Push Notifications" },
-        { "name": "Cloud Architecture Concepts", "level": "Intermediate", "focus": "IaaS, PaaS, Cloud Security Fundamentals" }
+        {
+          "name": "AWS EC2",
+          "level": "Intermediate",
+          "focus": "Instance Provisioning, Security Groups & SSH Configuration"
+        },
+        {
+          "name": "Firebase Realtime Database",
+          "level": "Intermediate",
+          "focus": "NoSQL Cloud Telemetry & Push Notifications"
+        },
+        {
+          "name": "Cloud Architecture Concepts",
+          "level": "Intermediate",
+          "focus": "IaaS, PaaS, Cloud Security Fundamentals"
+        }
       ]
     },
     {
       "category": "Cybersecurity & Operating Systems",
       "slug": "cybersecurity",
       "skills": [
-        { "name": "Ethical Hacking Fundamentals", "level": "Intermediate", "focus": "Port Scanning, Vulnerability Identification" },
-        { "name": "Cybersecurity Fundamentals", "level": "Intermediate", "focus": "CIA Triad, Cryptography, Defensive Controls" },
-        { "name": "Linux Operating Systems", "level": "Intermediate", "focus": "CLI Navigation, Permissions, Bash & System Administration" }
+        {
+          "name": "Ethical Hacking Fundamentals",
+          "level": "Intermediate",
+          "focus": "Port Scanning, Vulnerability Identification"
+        },
+        {
+          "name": "Cybersecurity Fundamentals",
+          "level": "Intermediate",
+          "focus": "CIA Triad, Cryptography, Defensive Controls"
+        },
+        {
+          "name": "Linux Operating Systems",
+          "level": "Intermediate",
+          "focus": "CLI Navigation, Permissions, Bash & System Administration"
+        }
       ]
     },
     {
       "category": "Software & Engineering Tooling",
       "slug": "tools",
       "skills": [
-        { "name": "Visual Studio / VS Code", "level": "Advanced", "focus": "IDE Workflows & Code Structuring" },
-        { "name": "Arduino IDE", "level": "Advanced", "focus": "Firmware Compilation & Serial Diagnostics" },
-        { "name": "Git & GitHub", "level": "Intermediate", "focus": "Version Control & Repository Management" }
+        {
+          "name": "Visual Studio / VS Code",
+          "level": "Advanced",
+          "focus": "IDE Workflows & Code Structuring"
+        },
+        {
+          "name": "Arduino IDE",
+          "level": "Advanced",
+          "focus": "Firmware Compilation & Serial Diagnostics"
+        },
+        {
+          "name": "Git & GitHub",
+          "level": "Intermediate",
+          "focus": "Version Control & Repository Management"
+        }
       ]
     },
     {
       "category": "Soft Skills & Professional Attributes",
       "slug": "soft-skills",
       "skills": [
-        { "name": "Teamwork & Collaboration", "level": "Exemplary", "focus": "Cross-functional Engineering Team Execution" },
-        { "name": "Technical Problem Solving", "level": "Exemplary", "focus": "Root Cause Analysis & Systems Debugging" },
-        { "name": "Technical Communication", "level": "Exemplary", "focus": "Engineering Documentation & Presentations" },
-        { "name": "Adaptability & Perseverance", "level": "Exemplary", "focus": "Continuous Learning in Emerging Domains" },
-        { "name": "Leadership & Initiative", "level": "Exemplary", "focus": "Project Organization & Execution" }
+        {
+          "name": "Teamwork & Collaboration",
+          "level": "Exemplary",
+          "focus": "Cross-functional Engineering Team Execution"
+        },
+        {
+          "name": "Technical Problem Solving",
+          "level": "Exemplary",
+          "focus": "Root Cause Analysis & Systems Debugging"
+        },
+        {
+          "name": "Technical Communication",
+          "level": "Exemplary",
+          "focus": "Engineering Documentation & Presentations"
+        },
+        {
+          "name": "Adaptability & Perseverance",
+          "level": "Exemplary",
+          "focus": "Continuous Learning in Emerging Domains"
+        },
+        {
+          "name": "Leadership & Initiative",
+          "level": "Exemplary",
+          "focus": "Project Organization & Execution"
+        }
       ]
     }
   ],
@@ -318,7 +450,7 @@
       "role": "Network Designer & Simulator",
       "date": "2024 - 2025",
       "image_url": "assets/images/pro.jpg",
-      "description": "A simulated enterprise campus network designed and configured in Cisco Packet Tracer, incorporating hierarchical multi-layer switching, VLAN segmentation, inter-VLAN routing, NAT, DHCP, and dynamic OSPF routing protocols.",
+      "description": "A simulated enterprise campus network designed and configured in Cisco Packet Tracer, incorporating hierarchical multi-layer switching, VLAN segmentation, inter-VLAN routing, NAT, and DHCP",
       "problem": "Unsegmented enterprise networks suffer from excessive broadcast traffic, security vulnerabilities across departmental boundaries, and lack of redundant routing paths.",
       "purpose": "To design an enterprise network topology delivering high availability, deterministic traffic routing, access control security, and efficient IP address allocation.",
       "technologies": [
@@ -326,7 +458,6 @@
         "Cisco IOS CLI",
         "VLANs & 802.1Q Trunking",
         "Inter-VLAN Routing (Router-on-a-Stick & Layer 3 Switches)",
-        "OSPF Dynamic Routing",
         "Network Address Translation (NAT / PAT)",
         "Access Control Lists (ACLs)"
       ],
